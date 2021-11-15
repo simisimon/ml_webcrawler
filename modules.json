@@ -3949,7 +3949,7 @@
         "href": "generated/sklearn.utils.deprecated.html#sklearn.utils.deprecated",
         "name": "deprecated",
         "package_name": "module-sklearn.utils",
-        "type": "METHOD"
+        "type": "DECORATOR"
     },
     {
         "description": "Check if estimator adheres to scikit-learn conventions.",

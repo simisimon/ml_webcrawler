@@ -10,17 +10,21 @@ class ModuleType(Enum):
     DECORATOR =  3
 
 
-print(ModuleType.CLASS)
-
 url = 'https://scikit-learn.org/stable/modules/classes.html'
 module_url = "https://scikit-learn.org/stable/modules/"
+
 
 def get_page_contents(url):
     page = requests.get(url, headers={"Accept-Language": "en-US"})
     return bs4.BeautifulSoup(page.text, "html.parser")
 
 
-def check_type(name):
+# classes start with uppercase letters
+# methods start with lowercase letters
+# decorator if description starts with decorator
+def check_type(name, description):
+    if description.lower().startswith("decorator"):
+        return ModuleType.DECORATOR.name
     if name[0].isupper():
         return ModuleType.CLASS.name
     else:
@@ -48,9 +52,8 @@ for name in names:
             entries = tr.findAll("td")
             entry = entries[0]
             description = entries[-1].find("p").text
-            
             element = entry.find("a", class_="reference internal")
-            module_type = check_type(element["title"].split(".")[-1])
+            module_type = check_type(name=element["title"].split(".")[-1], description=description)
             module = {"package_name": name,
                       "description": description,
                       "full_name": element["title"], 
