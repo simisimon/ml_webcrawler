@@ -4,6 +4,8 @@ import requests
 import json
 from enum import Enum
 
+from sklearn_class_crawler import extract_params
+
 class ModuleType(Enum):
     METHOD = 1
     CLASS = 2
@@ -54,14 +56,17 @@ for name in names:
             description = entries[-1].find("p").text
             element = entry.find("a", class_="reference internal")
             module_type = check_type(name=element["title"].split(".")[-1], description=description)
+
+            params = extract_params(element["href"], module_type)
+
             module = {"package_name": name,
                       "description": description,
                       "full_name": element["title"], 
                       "name": element["title"].split(".")[-1], 
                       "href": element["href"],
-                      "type": module_type ,
+                      "type": module_type,
+                      "params": params
                       }
-            print(module["name"])
             data.append(module)
 
 print("number of modules: ", len(names))
