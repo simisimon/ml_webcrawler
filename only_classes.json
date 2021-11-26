@@ -1,82 +1,121 @@
 [
     {
+        "description": "Base class for all estimators in scikit-learn.",
         "full_name": "sklearn.base.BaseEstimator",
+        "href": "generated/sklearn.base.BaseEstimator.html#sklearn.base.BaseEstimator",
         "name": "BaseEstimator",
+        "package_name": "module-sklearn.base",
         "params": [
             "deep"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Mixin class for all bicluster estimators in scikit-learn.",
         "full_name": "sklearn.base.BiclusterMixin",
+        "href": "generated/sklearn.base.BiclusterMixin.html#sklearn.base.BiclusterMixin",
         "name": "BiclusterMixin",
-        "params": []
+        "package_name": "module-sklearn.base",
+        "params": [],
+        "type": "CLASS"
     },
     {
+        "description": "Mixin class for all classifiers in scikit-learn.",
         "full_name": "sklearn.base.ClassifierMixin",
+        "href": "generated/sklearn.base.ClassifierMixin.html#sklearn.base.ClassifierMixin",
         "name": "ClassifierMixin",
+        "package_name": "module-sklearn.base",
         "params": [
             "X",
             "y",
             "sample_weight"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Mixin class for all cluster estimators in scikit-learn.",
         "full_name": "sklearn.base.ClusterMixin",
+        "href": "generated/sklearn.base.ClusterMixin.html#sklearn.base.ClusterMixin",
         "name": "ClusterMixin",
+        "package_name": "module-sklearn.base",
         "params": [
             "X",
             "y"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Mixin class for all density estimators in scikit-learn.",
         "full_name": "sklearn.base.DensityMixin",
+        "href": "generated/sklearn.base.DensityMixin.html#sklearn.base.DensityMixin",
         "name": "DensityMixin",
+        "package_name": "module-sklearn.base",
         "params": [
             "X",
             "y"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Mixin class for all regression estimators in scikit-learn.",
         "full_name": "sklearn.base.RegressorMixin",
+        "href": "generated/sklearn.base.RegressorMixin.html#sklearn.base.RegressorMixin",
         "name": "RegressorMixin",
+        "package_name": "module-sklearn.base",
         "params": [
             "X",
             "y",
             "sample_weight"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Mixin class for all transformers in scikit-learn.",
         "full_name": "sklearn.base.TransformerMixin",
+        "href": "generated/sklearn.base.TransformerMixin.html#sklearn.base.TransformerMixin",
         "name": "TransformerMixin",
+        "package_name": "module-sklearn.base",
         "params": [
             "X",
             "y",
             "**fit_params"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Transformer mixin that performs feature selection given a support mask",
         "full_name": "sklearn.feature_selection.SelectorMixin",
+        "href": "generated/sklearn.feature_selection.SelectorMixin.html#sklearn.feature_selection.SelectorMixin",
         "name": "SelectorMixin",
+        "package_name": "module-sklearn.base",
         "params": [
             "X",
             "y",
             "**fit_params"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Probability calibration with isotonic regression or logistic regression.",
         "full_name": "sklearn.calibration.CalibratedClassifierCV",
+        "href": "generated/sklearn.calibration.CalibratedClassifierCV.html#sklearn.calibration.CalibratedClassifierCV",
         "name": "CalibratedClassifierCV",
+        "package_name": "module-sklearn.calibration",
         "params": [
             "base_estimator",
             "method",
             "cv",
             "n_jobs",
             "ensemble"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Perform Affinity Propagation Clustering of data.",
         "full_name": "sklearn.cluster.AffinityPropagation",
+        "href": "generated/sklearn.cluster.AffinityPropagation.html#sklearn.cluster.AffinityPropagation",
         "name": "AffinityPropagation",
+        "package_name": "module-sklearn.cluster",
         "params": [
             "damping",
             "max_iter",
@@ -86,11 +125,15 @@
             "affinity",
             "verbose",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Agglomerative Clustering.",
         "full_name": "sklearn.cluster.AgglomerativeClustering",
+        "href": "generated/sklearn.cluster.AgglomerativeClustering.html#sklearn.cluster.AgglomerativeClustering",
         "name": "AgglomerativeClustering",
+        "package_name": "module-sklearn.cluster",
         "params": [
             "n_clusters",
             "affinity",
@@ -100,22 +143,30 @@
             "linkage",
             "distance_threshold",
             "compute_distances"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Implements the BIRCH clustering algorithm.",
         "full_name": "sklearn.cluster.Birch",
+        "href": "generated/sklearn.cluster.Birch.html#sklearn.cluster.Birch",
         "name": "Birch",
+        "package_name": "module-sklearn.cluster",
         "params": [
             "threshold",
             "branching_factor",
             "n_clusters",
             "compute_labels",
             "copy"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Perform DBSCAN clustering from vector array or distance matrix.",
         "full_name": "sklearn.cluster.DBSCAN",
+        "href": "generated/sklearn.cluster.DBSCAN.html#sklearn.cluster.DBSCAN",
         "name": "DBSCAN",
+        "package_name": "module-sklearn.cluster",
         "params": [
             "eps",
             "min_samples",
@@ -125,11 +176,15 @@
             "leaf_size",
             "p",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Agglomerate features.",
         "full_name": "sklearn.cluster.FeatureAgglomeration",
+        "href": "generated/sklearn.cluster.FeatureAgglomeration.html#sklearn.cluster.FeatureAgglomeration",
         "name": "FeatureAgglomeration",
+        "package_name": "module-sklearn.cluster",
         "params": [
             "n_clusters",
             "affinity",
@@ -140,11 +195,15 @@
             "pooling_func",
             "distance_threshold",
             "compute_distances"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "K-Means clustering.",
         "full_name": "sklearn.cluster.KMeans",
+        "href": "generated/sklearn.cluster.KMeans.html#sklearn.cluster.KMeans",
         "name": "KMeans",
+        "package_name": "module-sklearn.cluster",
         "params": [
             "n_clusters",
             "init",
@@ -155,11 +214,15 @@
             "random_state",
             "copy_x",
             "algorithm"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Mini-Batch K-Means clustering.",
         "full_name": "sklearn.cluster.MiniBatchKMeans",
+        "href": "generated/sklearn.cluster.MiniBatchKMeans.html#sklearn.cluster.MiniBatchKMeans",
         "name": "MiniBatchKMeans",
+        "package_name": "module-sklearn.cluster",
         "params": [
             "n_clusters",
             "init",
@@ -173,11 +236,15 @@
             "init_size",
             "n_init",
             "reassignment_ratio"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Mean shift clustering using a flat kernel.",
         "full_name": "sklearn.cluster.MeanShift",
+        "href": "generated/sklearn.cluster.MeanShift.html#sklearn.cluster.MeanShift",
         "name": "MeanShift",
+        "package_name": "module-sklearn.cluster",
         "params": [
             "bandwidth",
             "seeds",
@@ -186,11 +253,15 @@
             "cluster_all",
             "n_jobs",
             "max_iter"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Estimate clustering structure from vector array.",
         "full_name": "sklearn.cluster.OPTICS",
+        "href": "generated/sklearn.cluster.OPTICS.html#sklearn.cluster.OPTICS",
         "name": "OPTICS",
+        "package_name": "module-sklearn.cluster",
         "params": [
             "min_samples",
             "max_eps",
@@ -206,11 +277,15 @@
             "leaf_size",
             "memory",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Apply clustering to a projection of the normalized Laplacian.",
         "full_name": "sklearn.cluster.SpectralClustering",
+        "href": "generated/sklearn.cluster.SpectralClustering.html#sklearn.cluster.SpectralClustering",
         "name": "SpectralClustering",
+        "package_name": "module-sklearn.cluster",
         "params": [
             "n_clusters",
             "eigen_solver",
@@ -227,11 +302,15 @@
             "kernel_params",
             "n_jobs",
             "verbose"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Spectral biclustering (Kluger, 2003).",
         "full_name": "sklearn.cluster.SpectralBiclustering",
+        "href": "generated/sklearn.cluster.SpectralBiclustering.html#sklearn.cluster.SpectralBiclustering",
         "name": "SpectralBiclustering",
+        "package_name": "module-sklearn.cluster",
         "params": [
             "n_clusters",
             "method",
@@ -243,11 +322,15 @@
             "init",
             "n_init",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Spectral Co-Clustering algorithm (Dhillon, 2001).",
         "full_name": "sklearn.cluster.SpectralCoclustering",
+        "href": "generated/sklearn.cluster.SpectralCoclustering.html#sklearn.cluster.SpectralCoclustering",
         "name": "SpectralCoclustering",
+        "package_name": "module-sklearn.cluster",
         "params": [
             "n_clusters",
             "svd_method",
@@ -256,11 +339,15 @@
             "init",
             "n_init",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Applies transformers to columns of an array or pandas DataFrame.",
         "full_name": "sklearn.compose.ColumnTransformer",
+        "href": "generated/sklearn.compose.ColumnTransformer.html#sklearn.compose.ColumnTransformer",
         "name": "ColumnTransformer",
+        "package_name": "module-sklearn.compose",
         "params": [
             "transformers",
             "remainder",
@@ -269,41 +356,57 @@
             "transformer_weights",
             "verbose",
             "verbose_feature_names_out"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Meta-estimator to regress on a transformed target.",
         "full_name": "sklearn.compose.TransformedTargetRegressor",
+        "href": "generated/sklearn.compose.TransformedTargetRegressor.html#sklearn.compose.TransformedTargetRegressor",
         "name": "TransformedTargetRegressor",
+        "package_name": "module-sklearn.compose",
         "params": [
             "regressor",
             "transformer",
             "func",
             "inverse_func",
             "check_inverse"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Maximum likelihood covariance estimator.",
         "full_name": "sklearn.covariance.EmpiricalCovariance",
+        "href": "generated/sklearn.covariance.EmpiricalCovariance.html#sklearn.covariance.EmpiricalCovariance",
         "name": "EmpiricalCovariance",
+        "package_name": "module-sklearn.covariance",
         "params": [
             "store_precision",
             "assume_centered"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "An object for detecting outliers in a Gaussian distributed dataset.",
         "full_name": "sklearn.covariance.EllipticEnvelope",
+        "href": "generated/sklearn.covariance.EllipticEnvelope.html#sklearn.covariance.EllipticEnvelope",
         "name": "EllipticEnvelope",
+        "package_name": "module-sklearn.covariance",
         "params": [
             "store_precision",
             "assume_centered",
             "support_fraction",
             "contamination",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Sparse inverse covariance estimation with an l1-penalized estimator.",
         "full_name": "sklearn.covariance.GraphicalLasso",
+        "href": "generated/sklearn.covariance.GraphicalLasso.html#sklearn.covariance.GraphicalLasso",
         "name": "GraphicalLasso",
+        "package_name": "module-sklearn.covariance",
         "params": [
             "alpha",
             "mode",
@@ -312,11 +415,15 @@
             "max_iter",
             "verbose",
             "assume_centered"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Sparse inverse covariance w/ cross-validated choice of the l1 penalty.",
         "full_name": "sklearn.covariance.GraphicalLassoCV",
+        "href": "generated/sklearn.covariance.GraphicalLassoCV.html#sklearn.covariance.GraphicalLassoCV",
         "name": "GraphicalLassoCV",
+        "package_name": "module-sklearn.covariance",
         "params": [
             "alphas",
             "n_refinements",
@@ -328,58 +435,82 @@
             "n_jobs",
             "verbose",
             "assume_centered"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "LedoitWolf Estimator.",
         "full_name": "sklearn.covariance.LedoitWolf",
+        "href": "generated/sklearn.covariance.LedoitWolf.html#sklearn.covariance.LedoitWolf",
         "name": "LedoitWolf",
+        "package_name": "module-sklearn.covariance",
         "params": [
             "store_precision",
             "assume_centered",
             "block_size"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Minimum Covariance Determinant (MCD): robust estimator of covariance.",
         "full_name": "sklearn.covariance.MinCovDet",
+        "href": "generated/sklearn.covariance.MinCovDet.html#sklearn.covariance.MinCovDet",
         "name": "MinCovDet",
+        "package_name": "module-sklearn.covariance",
         "params": [
             "store_precision",
             "assume_centered",
             "support_fraction",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Oracle Approximating Shrinkage Estimator.",
         "full_name": "sklearn.covariance.OAS",
+        "href": "generated/sklearn.covariance.OAS.html#sklearn.covariance.OAS",
         "name": "OAS",
+        "package_name": "module-sklearn.covariance",
         "params": [
             "store_precision",
             "assume_centered"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Covariance estimator with shrinkage.",
         "full_name": "sklearn.covariance.ShrunkCovariance",
+        "href": "generated/sklearn.covariance.ShrunkCovariance.html#sklearn.covariance.ShrunkCovariance",
         "name": "ShrunkCovariance",
+        "package_name": "module-sklearn.covariance",
         "params": [
             "store_precision",
             "assume_centered",
             "shrinkage"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Canonical Correlation Analysis, also known as \u201cMode B\u201d PLS.",
         "full_name": "sklearn.cross_decomposition.CCA",
+        "href": "generated/sklearn.cross_decomposition.CCA.html#sklearn.cross_decomposition.CCA",
         "name": "CCA",
+        "package_name": "module-sklearn.cross_decomposition",
         "params": [
             "n_components",
             "scale",
             "max_iter",
             "tol",
             "copy"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Partial Least Squares transformer and regressor.",
         "full_name": "sklearn.cross_decomposition.PLSCanonical",
+        "href": "generated/sklearn.cross_decomposition.PLSCanonical.html#sklearn.cross_decomposition.PLSCanonical",
         "name": "PLSCanonical",
+        "package_name": "module-sklearn.cross_decomposition",
         "params": [
             "n_components",
             "scale",
@@ -387,31 +518,43 @@
             "max_iter",
             "tol",
             "copy"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "PLS regression.",
         "full_name": "sklearn.cross_decomposition.PLSRegression",
+        "href": "generated/sklearn.cross_decomposition.PLSRegression.html#sklearn.cross_decomposition.PLSRegression",
         "name": "PLSRegression",
+        "package_name": "module-sklearn.cross_decomposition",
         "params": [
             "n_components",
             "scale",
             "max_iter",
             "tol",
             "copy"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Partial Least Square SVD.",
         "full_name": "sklearn.cross_decomposition.PLSSVD",
+        "href": "generated/sklearn.cross_decomposition.PLSSVD.html#sklearn.cross_decomposition.PLSSVD",
         "name": "PLSSVD",
+        "package_name": "module-sklearn.cross_decomposition",
         "params": [
             "n_components",
             "scale",
             "copy"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Dictionary learning.",
         "full_name": "sklearn.decomposition.DictionaryLearning",
+        "href": "generated/sklearn.decomposition.DictionaryLearning.html#sklearn.decomposition.DictionaryLearning",
         "name": "DictionaryLearning",
+        "package_name": "module-sklearn.decomposition",
         "params": [
             "n_components",
             "alpha",
@@ -430,11 +573,15 @@
             "positive_code",
             "positive_dict",
             "transform_max_iter"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Factor Analysis (FA).",
         "full_name": "sklearn.decomposition.FactorAnalysis",
+        "href": "generated/sklearn.decomposition.FactorAnalysis.html#sklearn.decomposition.FactorAnalysis",
         "name": "FactorAnalysis",
+        "package_name": "module-sklearn.decomposition",
         "params": [
             "n_components",
             "tol",
@@ -445,11 +592,15 @@
             "iterated_power",
             "rotation",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "FastICA: a fast algorithm for Independent Component Analysis.",
         "full_name": "sklearn.decomposition.FastICA",
+        "href": "generated/sklearn.decomposition.FastICA.html#sklearn.decomposition.FastICA",
         "name": "FastICA",
+        "package_name": "module-sklearn.decomposition",
         "params": [
             "n_components",
             "algorithm",
@@ -460,21 +611,29 @@
             "tol",
             "w_init",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Incremental principal components analysis (IPCA).",
         "full_name": "sklearn.decomposition.IncrementalPCA",
+        "href": "generated/sklearn.decomposition.IncrementalPCA.html#sklearn.decomposition.IncrementalPCA",
         "name": "IncrementalPCA",
+        "package_name": "module-sklearn.decomposition",
         "params": [
             "n_components",
             "whiten",
             "copy",
             "batch_size"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Kernel Principal component analysis (KPCA).",
         "full_name": "sklearn.decomposition.KernelPCA",
+        "href": "generated/sklearn.decomposition.KernelPCA.html#sklearn.decomposition.KernelPCA",
         "name": "KernelPCA",
+        "package_name": "module-sklearn.decomposition",
         "params": [
             "n_components",
             "kernel",
@@ -492,11 +651,15 @@
             "random_state",
             "copy_X",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Latent Dirichlet Allocation with online variational Bayes algorithm.",
         "full_name": "sklearn.decomposition.LatentDirichletAllocation",
+        "href": "generated/sklearn.decomposition.LatentDirichletAllocation.html#sklearn.decomposition.LatentDirichletAllocation",
         "name": "LatentDirichletAllocation",
+        "package_name": "module-sklearn.decomposition",
         "params": [
             "n_components",
             "doc_topic_prior",
@@ -514,11 +677,15 @@
             "n_jobs",
             "verbose",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Mini-batch dictionary learning.",
         "full_name": "sklearn.decomposition.MiniBatchDictionaryLearning",
+        "href": "generated/sklearn.decomposition.MiniBatchDictionaryLearning.html#sklearn.decomposition.MiniBatchDictionaryLearning",
         "name": "MiniBatchDictionaryLearning",
+        "package_name": "module-sklearn.decomposition",
         "params": [
             "n_components",
             "alpha",
@@ -537,11 +704,15 @@
             "positive_code",
             "positive_dict",
             "transform_max_iter"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Mini-batch Sparse Principal Components Analysis.",
         "full_name": "sklearn.decomposition.MiniBatchSparsePCA",
+        "href": "generated/sklearn.decomposition.MiniBatchSparsePCA.html#sklearn.decomposition.MiniBatchSparsePCA",
         "name": "MiniBatchSparsePCA",
+        "package_name": "module-sklearn.decomposition",
         "params": [
             "n_components",
             "alpha",
@@ -554,11 +725,15 @@
             "n_jobs",
             "method",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Non-Negative Matrix Factorization (NMF).",
         "full_name": "sklearn.decomposition.NMF",
+        "href": "generated/sklearn.decomposition.NMF.html#sklearn.decomposition.NMF",
         "name": "NMF",
+        "package_name": "module-sklearn.decomposition",
         "params": [
             "n_components",
             "init",
@@ -574,11 +749,15 @@
             "verbose",
             "shuffle",
             "regularization"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Principal component analysis (PCA).",
         "full_name": "sklearn.decomposition.PCA",
+        "href": "generated/sklearn.decomposition.PCA.html#sklearn.decomposition.PCA",
         "name": "PCA",
+        "package_name": "module-sklearn.decomposition",
         "params": [
             "n_components",
             "copy",
@@ -587,11 +766,15 @@
             "tol",
             "iterated_power",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Sparse Principal Components Analysis (SparsePCA).",
         "full_name": "sklearn.decomposition.SparsePCA",
+        "href": "generated/sklearn.decomposition.SparsePCA.html#sklearn.decomposition.SparsePCA",
         "name": "SparsePCA",
+        "package_name": "module-sklearn.decomposition",
         "params": [
             "n_components",
             "alpha",
@@ -604,11 +787,15 @@
             "V_init",
             "verbose",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Sparse coding.",
         "full_name": "sklearn.decomposition.SparseCoder",
+        "href": "generated/sklearn.decomposition.SparseCoder.html#sklearn.decomposition.SparseCoder",
         "name": "SparseCoder",
+        "package_name": "module-sklearn.decomposition",
         "params": [
             "dictionary",
             "transform_algorithm",
@@ -618,22 +805,30 @@
             "n_jobs",
             "positive_code",
             "transform_max_iter"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Dimensionality reduction using truncated SVD (aka LSA).",
         "full_name": "sklearn.decomposition.TruncatedSVD",
+        "href": "generated/sklearn.decomposition.TruncatedSVD.html#sklearn.decomposition.TruncatedSVD",
         "name": "TruncatedSVD",
+        "package_name": "module-sklearn.decomposition",
         "params": [
             "n_components",
             "algorithm",
             "n_iter",
             "random_state",
             "tol"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Linear Discriminant Analysis.",
         "full_name": "sklearn.discriminant_analysis.LinearDiscriminantAnalysis",
+        "href": "generated/sklearn.discriminant_analysis.LinearDiscriminantAnalysis.html#sklearn.discriminant_analysis.LinearDiscriminantAnalysis",
         "name": "LinearDiscriminantAnalysis",
+        "package_name": "module-sklearn.discriminant_analysis",
         "params": [
             "solver",
             "shrinkage",
@@ -642,61 +837,85 @@
             "store_covariance",
             "tol",
             "covariance_estimator"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Quadratic Discriminant Analysis.",
         "full_name": "sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis",
+        "href": "generated/sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis.html#sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis",
         "name": "QuadraticDiscriminantAnalysis",
+        "package_name": "module-sklearn.discriminant_analysis",
         "params": [
             "priors",
             "reg_param",
             "store_covariance",
             "tol"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "DummyClassifier is a classifier that makes predictions using simple rules.",
         "full_name": "sklearn.dummy.DummyClassifier",
+        "href": "generated/sklearn.dummy.DummyClassifier.html#sklearn.dummy.DummyClassifier",
         "name": "DummyClassifier",
+        "package_name": "module-sklearn.dummy",
         "params": [
             "strategy",
             "random_state",
             "constant"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Regressor that makes predictions using simple rules.",
         "full_name": "sklearn.dummy.DummyRegressor",
+        "href": "generated/sklearn.dummy.DummyRegressor.html#sklearn.dummy.DummyRegressor",
         "name": "DummyRegressor",
+        "package_name": "module-sklearn.dummy",
         "params": [
             "strategy",
             "constant",
             "quantile"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "An AdaBoost classifier.",
         "full_name": "sklearn.ensemble.AdaBoostClassifier",
+        "href": "generated/sklearn.ensemble.AdaBoostClassifier.html#sklearn.ensemble.AdaBoostClassifier",
         "name": "AdaBoostClassifier",
+        "package_name": "module-sklearn.ensemble",
         "params": [
             "base_estimator",
             "n_estimators",
             "learning_rate",
             "algorithm",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "An AdaBoost regressor.",
         "full_name": "sklearn.ensemble.AdaBoostRegressor",
+        "href": "generated/sklearn.ensemble.AdaBoostRegressor.html#sklearn.ensemble.AdaBoostRegressor",
         "name": "AdaBoostRegressor",
+        "package_name": "module-sklearn.ensemble",
         "params": [
             "base_estimator",
             "n_estimators",
             "learning_rate",
             "loss",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "A Bagging classifier.",
         "full_name": "sklearn.ensemble.BaggingClassifier",
+        "href": "generated/sklearn.ensemble.BaggingClassifier.html#sklearn.ensemble.BaggingClassifier",
         "name": "BaggingClassifier",
+        "package_name": "module-sklearn.ensemble",
         "params": [
             "base_estimator",
             "n_estimators",
@@ -709,11 +928,15 @@
             "n_jobs",
             "random_state",
             "verbose"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "A Bagging regressor.",
         "full_name": "sklearn.ensemble.BaggingRegressor",
+        "href": "generated/sklearn.ensemble.BaggingRegressor.html#sklearn.ensemble.BaggingRegressor",
         "name": "BaggingRegressor",
+        "package_name": "module-sklearn.ensemble",
         "params": [
             "base_estimator",
             "n_estimators",
@@ -726,11 +949,15 @@
             "n_jobs",
             "random_state",
             "verbose"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "An extra-trees classifier.",
         "full_name": "sklearn.ensemble.ExtraTreesClassifier",
+        "href": "generated/sklearn.ensemble.ExtraTreesClassifier.html#sklearn.ensemble.ExtraTreesClassifier",
         "name": "ExtraTreesClassifier",
+        "package_name": "module-sklearn.ensemble",
         "params": [
             "n_estimators",
             "criterion",
@@ -750,11 +977,15 @@
             "class_weight",
             "ccp_alpha",
             "max_samples"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "An extra-trees regressor.",
         "full_name": "sklearn.ensemble.ExtraTreesRegressor",
+        "href": "generated/sklearn.ensemble.ExtraTreesRegressor.html#sklearn.ensemble.ExtraTreesRegressor",
         "name": "ExtraTreesRegressor",
+        "package_name": "module-sklearn.ensemble",
         "params": [
             "n_estimators",
             "criterion",
@@ -773,11 +1004,15 @@
             "warm_start",
             "ccp_alpha",
             "max_samples"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Gradient Boosting for classification.",
         "full_name": "sklearn.ensemble.GradientBoostingClassifier",
+        "href": "generated/sklearn.ensemble.GradientBoostingClassifier.html#sklearn.ensemble.GradientBoostingClassifier",
         "name": "GradientBoostingClassifier",
+        "package_name": "module-sklearn.ensemble",
         "params": [
             "loss",
             "learning_rate",
@@ -799,11 +1034,15 @@
             "n_iter_no_change",
             "tol",
             "ccp_alpha"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Gradient Boosting for regression.",
         "full_name": "sklearn.ensemble.GradientBoostingRegressor",
+        "href": "generated/sklearn.ensemble.GradientBoostingRegressor.html#sklearn.ensemble.GradientBoostingRegressor",
         "name": "GradientBoostingRegressor",
+        "package_name": "module-sklearn.ensemble",
         "params": [
             "loss",
             "learning_rate",
@@ -826,11 +1065,15 @@
             "n_iter_no_change",
             "tol",
             "ccp_alpha"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Isolation Forest Algorithm.",
         "full_name": "sklearn.ensemble.IsolationForest",
+        "href": "generated/sklearn.ensemble.IsolationForest.html#sklearn.ensemble.IsolationForest",
         "name": "IsolationForest",
+        "package_name": "module-sklearn.ensemble",
         "params": [
             "n_estimators",
             "max_samples",
@@ -841,11 +1084,15 @@
             "random_state",
             "verbose",
             "warm_start"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "A random forest classifier.",
         "full_name": "sklearn.ensemble.RandomForestClassifier",
+        "href": "generated/sklearn.ensemble.RandomForestClassifier.html#sklearn.ensemble.RandomForestClassifier",
         "name": "RandomForestClassifier",
+        "package_name": "module-sklearn.ensemble",
         "params": [
             "n_estimators",
             "criterion",
@@ -865,11 +1112,15 @@
             "class_weight",
             "ccp_alpha",
             "max_samples"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "A random forest regressor.",
         "full_name": "sklearn.ensemble.RandomForestRegressor",
+        "href": "generated/sklearn.ensemble.RandomForestRegressor.html#sklearn.ensemble.RandomForestRegressor",
         "name": "RandomForestRegressor",
+        "package_name": "module-sklearn.ensemble",
         "params": [
             "n_estimators",
             "criterion",
@@ -888,11 +1139,15 @@
             "warm_start",
             "ccp_alpha",
             "max_samples"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "An ensemble of totally random trees.",
         "full_name": "sklearn.ensemble.RandomTreesEmbedding",
+        "href": "generated/sklearn.ensemble.RandomTreesEmbedding.html#sklearn.ensemble.RandomTreesEmbedding",
         "name": "RandomTreesEmbedding",
+        "package_name": "module-sklearn.ensemble",
         "params": [
             "n_estimators",
             "max_depth",
@@ -906,11 +1161,15 @@
             "random_state",
             "verbose",
             "warm_start"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Stack of estimators with a final classifier.",
         "full_name": "sklearn.ensemble.StackingClassifier",
+        "href": "generated/sklearn.ensemble.StackingClassifier.html#sklearn.ensemble.StackingClassifier",
         "name": "StackingClassifier",
+        "package_name": "module-sklearn.ensemble",
         "params": [
             "estimators",
             "final_estimator",
@@ -919,11 +1178,15 @@
             "n_jobs",
             "passthrough",
             "verbose"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Stack of estimators with a final regressor.",
         "full_name": "sklearn.ensemble.StackingRegressor",
+        "href": "generated/sklearn.ensemble.StackingRegressor.html#sklearn.ensemble.StackingRegressor",
         "name": "StackingRegressor",
+        "package_name": "module-sklearn.ensemble",
         "params": [
             "estimators",
             "final_estimator",
@@ -931,11 +1194,15 @@
             "n_jobs",
             "passthrough",
             "verbose"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Soft Voting/Majority Rule classifier for unfitted estimators.",
         "full_name": "sklearn.ensemble.VotingClassifier",
+        "href": "generated/sklearn.ensemble.VotingClassifier.html#sklearn.ensemble.VotingClassifier",
         "name": "VotingClassifier",
+        "package_name": "module-sklearn.ensemble",
         "params": [
             "estimators",
             "voting",
@@ -943,21 +1210,29 @@
             "n_jobs",
             "flatten_transform",
             "verbose"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Prediction voting regressor for unfitted estimators.",
         "full_name": "sklearn.ensemble.VotingRegressor",
+        "href": "generated/sklearn.ensemble.VotingRegressor.html#sklearn.ensemble.VotingRegressor",
         "name": "VotingRegressor",
+        "package_name": "module-sklearn.ensemble",
         "params": [
             "estimators",
             "weights",
             "n_jobs",
             "verbose"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Histogram-based Gradient Boosting Regression Tree.",
         "full_name": "sklearn.ensemble.HistGradientBoostingRegressor",
+        "href": "generated/sklearn.ensemble.HistGradientBoostingRegressor.html#sklearn.ensemble.HistGradientBoostingRegressor",
         "name": "HistGradientBoostingRegressor",
+        "package_name": "module-sklearn.ensemble",
         "params": [
             "loss",
             "learning_rate",
@@ -977,11 +1252,15 @@
             "tol",
             "verbose",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Histogram-based Gradient Boosting Classification Tree.",
         "full_name": "sklearn.ensemble.HistGradientBoostingClassifier",
+        "href": "generated/sklearn.ensemble.HistGradientBoostingClassifier.html#sklearn.ensemble.HistGradientBoostingClassifier",
         "name": "HistGradientBoostingClassifier",
+        "package_name": "module-sklearn.ensemble",
         "params": [
             "loss",
             "learning_rate",
@@ -1001,75 +1280,119 @@
             "tol",
             "verbose",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Custom warning to capture convergence problems",
         "full_name": "sklearn.exceptions.ConvergenceWarning",
+        "href": "generated/sklearn.exceptions.ConvergenceWarning.html#sklearn.exceptions.ConvergenceWarning",
         "name": "ConvergenceWarning",
-        "params": []
+        "package_name": "module-sklearn.exceptions",
+        "params": [],
+        "type": "CLASS"
     },
     {
+        "description": "Warning used to notify implicit data conversions happening in the code.",
         "full_name": "sklearn.exceptions.DataConversionWarning",
+        "href": "generated/sklearn.exceptions.DataConversionWarning.html#sklearn.exceptions.DataConversionWarning",
         "name": "DataConversionWarning",
-        "params": []
+        "package_name": "module-sklearn.exceptions",
+        "params": [],
+        "type": "CLASS"
     },
     {
+        "description": "Custom warning to notify potential issues with data dimensionality.",
         "full_name": "sklearn.exceptions.DataDimensionalityWarning",
+        "href": "generated/sklearn.exceptions.DataDimensionalityWarning.html#sklearn.exceptions.DataDimensionalityWarning",
         "name": "DataDimensionalityWarning",
-        "params": []
+        "package_name": "module-sklearn.exceptions",
+        "params": [],
+        "type": "CLASS"
     },
     {
+        "description": "Warning used to notify the user of inefficient computation.",
         "full_name": "sklearn.exceptions.EfficiencyWarning",
+        "href": "generated/sklearn.exceptions.EfficiencyWarning.html#sklearn.exceptions.EfficiencyWarning",
         "name": "EfficiencyWarning",
-        "params": []
+        "package_name": "module-sklearn.exceptions",
+        "params": [],
+        "type": "CLASS"
     },
     {
+        "description": "Warning class used if there is an error while fitting the estimator.",
         "full_name": "sklearn.exceptions.FitFailedWarning",
+        "href": "generated/sklearn.exceptions.FitFailedWarning.html#sklearn.exceptions.FitFailedWarning",
         "name": "FitFailedWarning",
-        "params": []
+        "package_name": "module-sklearn.exceptions",
+        "params": [],
+        "type": "CLASS"
     },
     {
+        "description": "Exception class to raise if estimator is used before fitting.",
         "full_name": "sklearn.exceptions.NotFittedError",
+        "href": "generated/sklearn.exceptions.NotFittedError.html#sklearn.exceptions.NotFittedError",
         "name": "NotFittedError",
-        "params": []
+        "package_name": "module-sklearn.exceptions",
+        "params": [],
+        "type": "CLASS"
     },
     {
+        "description": "Warning used when the metric is invalid",
         "full_name": "sklearn.exceptions.UndefinedMetricWarning",
+        "href": "generated/sklearn.exceptions.UndefinedMetricWarning.html#sklearn.exceptions.UndefinedMetricWarning",
         "name": "UndefinedMetricWarning",
-        "params": []
+        "package_name": "module-sklearn.exceptions",
+        "params": [],
+        "type": "CLASS"
     },
     {
+        "description": "Transforms lists of feature-value mappings to vectors.",
         "full_name": "sklearn.feature_extraction.DictVectorizer",
+        "href": "generated/sklearn.feature_extraction.DictVectorizer.html#sklearn.feature_extraction.DictVectorizer",
         "name": "DictVectorizer",
+        "package_name": "module-sklearn.feature_extraction",
         "params": [
             "dtype",
             "separator",
             "sparse",
             "sort"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Implements feature hashing, aka the hashing trick.",
         "full_name": "sklearn.feature_extraction.FeatureHasher",
+        "href": "generated/sklearn.feature_extraction.FeatureHasher.html#sklearn.feature_extraction.FeatureHasher",
         "name": "FeatureHasher",
+        "package_name": "module-sklearn.feature_extraction",
         "params": [
             "n_features",
             "input_type",
             "dtype",
             "alternate_sign"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Extracts patches from a collection of images.",
         "full_name": "sklearn.feature_extraction.image.PatchExtractor",
+        "href": "generated/sklearn.feature_extraction.image.PatchExtractor.html#sklearn.feature_extraction.image.PatchExtractor",
         "name": "PatchExtractor",
+        "package_name": "module-sklearn.feature_extraction",
         "params": [
             "patch_size",
             "max_patches",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Convert a collection of text documents to a matrix of token counts.",
         "full_name": "sklearn.feature_extraction.text.CountVectorizer",
+        "href": "generated/sklearn.feature_extraction.text.CountVectorizer.html#sklearn.feature_extraction.text.CountVectorizer",
         "name": "CountVectorizer",
+        "package_name": "module-sklearn.feature_extraction",
         "params": [
             "input",
             "encoding",
@@ -1088,11 +1411,15 @@
             "vocabulary",
             "binary",
             "dtype"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Convert a collection of text documents to a matrix of token occurrences.",
         "full_name": "sklearn.feature_extraction.text.HashingVectorizer",
+        "href": "generated/sklearn.feature_extraction.text.HashingVectorizer.html#sklearn.feature_extraction.text.HashingVectorizer",
         "name": "HashingVectorizer",
+        "package_name": "module-sklearn.feature_extraction",
         "params": [
             "input",
             "encoding",
@@ -1110,21 +1437,29 @@
             "norm",
             "alternate_sign",
             "dtype"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Transform a count matrix to a normalized tf or tf-idf representation.",
         "full_name": "sklearn.feature_extraction.text.TfidfTransformer",
+        "href": "generated/sklearn.feature_extraction.text.TfidfTransformer.html#sklearn.feature_extraction.text.TfidfTransformer",
         "name": "TfidfTransformer",
+        "package_name": "module-sklearn.feature_extraction",
         "params": [
             "norm",
             "use_idf",
             "smooth_idf",
             "sublinear_tf"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Convert a collection of raw documents to a matrix of TF-IDF features.",
         "full_name": "sklearn.feature_extraction.text.TfidfVectorizer",
+        "href": "generated/sklearn.feature_extraction.text.TfidfVectorizer.html#sklearn.feature_extraction.text.TfidfVectorizer",
         "name": "TfidfVectorizer",
+        "package_name": "module-sklearn.feature_extraction",
         "params": [
             "input",
             "encoding",
@@ -1147,52 +1482,76 @@
             "use_idf",
             "smooth_idf",
             "sublinear_tf"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Univariate feature selector with configurable strategy.",
         "full_name": "sklearn.feature_selection.GenericUnivariateSelect",
+        "href": "generated/sklearn.feature_selection.GenericUnivariateSelect.html#sklearn.feature_selection.GenericUnivariateSelect",
         "name": "GenericUnivariateSelect",
+        "package_name": "module-sklearn.feature_selection",
         "params": [
             "score_func",
             "mode",
             "param"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Select features according to a percentile of the highest scores.",
         "full_name": "sklearn.feature_selection.SelectPercentile",
+        "href": "generated/sklearn.feature_selection.SelectPercentile.html#sklearn.feature_selection.SelectPercentile",
         "name": "SelectPercentile",
+        "package_name": "module-sklearn.feature_selection",
         "params": [
             "score_func",
             "percentile"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Select features according to the k highest scores.",
         "full_name": "sklearn.feature_selection.SelectKBest",
+        "href": "generated/sklearn.feature_selection.SelectKBest.html#sklearn.feature_selection.SelectKBest",
         "name": "SelectKBest",
+        "package_name": "module-sklearn.feature_selection",
         "params": [
             "score_func",
             "k"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Filter: Select the pvalues below alpha based on a FPR test.",
         "full_name": "sklearn.feature_selection.SelectFpr",
+        "href": "generated/sklearn.feature_selection.SelectFpr.html#sklearn.feature_selection.SelectFpr",
         "name": "SelectFpr",
+        "package_name": "module-sklearn.feature_selection",
         "params": [
             "score_func",
             "alpha"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Filter: Select the p-values for an estimated false discovery rate.",
         "full_name": "sklearn.feature_selection.SelectFdr",
+        "href": "generated/sklearn.feature_selection.SelectFdr.html#sklearn.feature_selection.SelectFdr",
         "name": "SelectFdr",
+        "package_name": "module-sklearn.feature_selection",
         "params": [
             "score_func",
             "alpha"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Meta-transformer for selecting features based on importance weights.",
         "full_name": "sklearn.feature_selection.SelectFromModel",
+        "href": "generated/sklearn.feature_selection.SelectFromModel.html#sklearn.feature_selection.SelectFromModel",
         "name": "SelectFromModel",
+        "package_name": "module-sklearn.feature_selection",
         "params": [
             "estimator",
             "threshold",
@@ -1200,19 +1559,27 @@
             "norm_order",
             "max_features",
             "importance_getter"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Filter: Select the p-values corresponding to Family-wise error rate.",
         "full_name": "sklearn.feature_selection.SelectFwe",
+        "href": "generated/sklearn.feature_selection.SelectFwe.html#sklearn.feature_selection.SelectFwe",
         "name": "SelectFwe",
+        "package_name": "module-sklearn.feature_selection",
         "params": [
             "score_func",
             "alpha"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Transformer that performs Sequential Feature Selection.",
         "full_name": "sklearn.feature_selection.SequentialFeatureSelector",
+        "href": "generated/sklearn.feature_selection.SequentialFeatureSelector.html#sklearn.feature_selection.SequentialFeatureSelector",
         "name": "SequentialFeatureSelector",
+        "package_name": "module-sklearn.feature_selection",
         "params": [
             "estimator",
             "n_features_to_select",
@@ -1220,22 +1587,30 @@
             "scoring",
             "cv",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Feature ranking with recursive feature elimination.",
         "full_name": "sklearn.feature_selection.RFE",
+        "href": "generated/sklearn.feature_selection.RFE.html#sklearn.feature_selection.RFE",
         "name": "RFE",
+        "package_name": "module-sklearn.feature_selection",
         "params": [
             "estimator",
             "n_features_to_select",
             "step",
             "verbose",
             "importance_getter"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Recursive feature elimination with cross-validation to select the number of features.",
         "full_name": "sklearn.feature_selection.RFECV",
+        "href": "generated/sklearn.feature_selection.RFECV.html#sklearn.feature_selection.RFECV",
         "name": "RFECV",
+        "package_name": "module-sklearn.feature_selection",
         "params": [
             "estimator",
             "step",
@@ -1245,18 +1620,26 @@
             "verbose",
             "n_jobs",
             "importance_getter"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Feature selector that removes all low-variance features.",
         "full_name": "sklearn.feature_selection.VarianceThreshold",
+        "href": "generated/sklearn.feature_selection.VarianceThreshold.html#sklearn.feature_selection.VarianceThreshold",
         "name": "VarianceThreshold",
+        "package_name": "module-sklearn.feature_selection",
         "params": [
             "threshold"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Gaussian process classification (GPC) based on Laplace approximation.",
         "full_name": "sklearn.gaussian_process.GaussianProcessClassifier",
+        "href": "generated/sklearn.gaussian_process.GaussianProcessClassifier.html#sklearn.gaussian_process.GaussianProcessClassifier",
         "name": "GaussianProcessClassifier",
+        "package_name": "module-sklearn.gaussian_process",
         "params": [
             "kernel",
             "optimizer",
@@ -1267,11 +1650,15 @@
             "random_state",
             "multi_class",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Gaussian process regression (GPR).",
         "full_name": "sklearn.gaussian_process.GaussianProcessRegressor",
+        "href": "generated/sklearn.gaussian_process.GaussianProcessRegressor.html#sklearn.gaussian_process.GaussianProcessRegressor",
         "name": "GaussianProcessRegressor",
+        "package_name": "module-sklearn.gaussian_process",
         "params": [
             "kernel",
             "alpha",
@@ -1280,123 +1667,183 @@
             "normalize_y",
             "copy_X_train",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Kernel which is composed of a set of other kernels.",
         "full_name": "sklearn.gaussian_process.kernels.CompoundKernel",
+        "href": "generated/sklearn.gaussian_process.kernels.CompoundKernel.html#sklearn.gaussian_process.kernels.CompoundKernel",
         "name": "CompoundKernel",
+        "package_name": "module-sklearn.gaussian_process",
         "params": [
             "kernels"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Constant kernel.",
         "full_name": "sklearn.gaussian_process.kernels.ConstantKernel",
+        "href": "generated/sklearn.gaussian_process.kernels.ConstantKernel.html#sklearn.gaussian_process.kernels.ConstantKernel",
         "name": "ConstantKernel",
+        "package_name": "module-sklearn.gaussian_process",
         "params": [
             "constant_value",
             "constant_value_bounds"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Dot-Product kernel.",
         "full_name": "sklearn.gaussian_process.kernels.DotProduct",
+        "href": "generated/sklearn.gaussian_process.kernels.DotProduct.html#sklearn.gaussian_process.kernels.DotProduct",
         "name": "DotProduct",
+        "package_name": "module-sklearn.gaussian_process",
         "params": [
             "sigma_0",
             "sigma_0_bounds"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Exp-Sine-Squared kernel (aka periodic kernel).",
         "full_name": "sklearn.gaussian_process.kernels.ExpSineSquared",
+        "href": "generated/sklearn.gaussian_process.kernels.ExpSineSquared.html#sklearn.gaussian_process.kernels.ExpSineSquared",
         "name": "ExpSineSquared",
+        "package_name": "module-sklearn.gaussian_process",
         "params": [
             "length_scale",
             "periodicity",
             "length_scale_bounds",
             "periodicity_bounds"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "The Exponentiation kernel takes one base kernel and a scalar parameter \\(p\\) and combines them via",
         "full_name": "sklearn.gaussian_process.kernels.Exponentiation",
+        "href": "generated/sklearn.gaussian_process.kernels.Exponentiation.html#sklearn.gaussian_process.kernels.Exponentiation",
         "name": "Exponentiation",
+        "package_name": "module-sklearn.gaussian_process",
         "params": [
             "kernel",
             "exponent"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "A kernel hyperparameter\u2019s specification in form of a namedtuple.",
         "full_name": "sklearn.gaussian_process.kernels.Hyperparameter",
+        "href": "generated/sklearn.gaussian_process.kernels.Hyperparameter.html#sklearn.gaussian_process.kernels.Hyperparameter",
         "name": "Hyperparameter",
-        "params": []
+        "package_name": "module-sklearn.gaussian_process",
+        "params": [],
+        "type": "CLASS"
     },
     {
+        "description": "Base class for all kernels.",
         "full_name": "sklearn.gaussian_process.kernels.Kernel",
+        "href": "generated/sklearn.gaussian_process.kernels.Kernel.html#sklearn.gaussian_process.kernels.Kernel",
         "name": "Kernel",
-        "params": []
+        "package_name": "module-sklearn.gaussian_process",
+        "params": [],
+        "type": "CLASS"
     },
     {
+        "description": "Matern kernel.",
         "full_name": "sklearn.gaussian_process.kernels.Matern",
+        "href": "generated/sklearn.gaussian_process.kernels.Matern.html#sklearn.gaussian_process.kernels.Matern",
         "name": "Matern",
+        "package_name": "module-sklearn.gaussian_process",
         "params": [
             "length_scale",
             "length_scale_bounds",
             "nu"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Wrapper for kernels in sklearn.metrics.pairwise.",
         "full_name": "sklearn.gaussian_process.kernels.PairwiseKernel",
+        "href": "generated/sklearn.gaussian_process.kernels.PairwiseKernel.html#sklearn.gaussian_process.kernels.PairwiseKernel",
         "name": "PairwiseKernel",
+        "package_name": "module-sklearn.gaussian_process",
         "params": [
             "gamma",
             "gamma_bounds",
             "metric",
             "pairwise_kernels_kwargs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "The Product kernel takes two kernels \\(k_1\\) and \\(k_2\\) and combines them via",
         "full_name": "sklearn.gaussian_process.kernels.Product",
+        "href": "generated/sklearn.gaussian_process.kernels.Product.html#sklearn.gaussian_process.kernels.Product",
         "name": "Product",
+        "package_name": "module-sklearn.gaussian_process",
         "params": [
             "k1",
             "k2"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Radial-basis function kernel (aka squared-exponential kernel).",
         "full_name": "sklearn.gaussian_process.kernels.RBF",
+        "href": "generated/sklearn.gaussian_process.kernels.RBF.html#sklearn.gaussian_process.kernels.RBF",
         "name": "RBF",
+        "package_name": "module-sklearn.gaussian_process",
         "params": [
             "length_scale",
             "length_scale_bounds"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Rational Quadratic kernel.",
         "full_name": "sklearn.gaussian_process.kernels.RationalQuadratic",
+        "href": "generated/sklearn.gaussian_process.kernels.RationalQuadratic.html#sklearn.gaussian_process.kernels.RationalQuadratic",
         "name": "RationalQuadratic",
+        "package_name": "module-sklearn.gaussian_process",
         "params": [
             "length_scale",
             "alpha",
             "length_scale_bounds",
             "alpha_bounds"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "The Sum kernel takes two kernels \\(k_1\\) and \\(k_2\\) and combines them via",
         "full_name": "sklearn.gaussian_process.kernels.Sum",
+        "href": "generated/sklearn.gaussian_process.kernels.Sum.html#sklearn.gaussian_process.kernels.Sum",
         "name": "Sum",
+        "package_name": "module-sklearn.gaussian_process",
         "params": [
             "k1",
             "k2"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "White kernel.",
         "full_name": "sklearn.gaussian_process.kernels.WhiteKernel",
+        "href": "generated/sklearn.gaussian_process.kernels.WhiteKernel.html#sklearn.gaussian_process.kernels.WhiteKernel",
         "name": "WhiteKernel",
+        "package_name": "module-sklearn.gaussian_process",
         "params": [
             "noise_level",
             "noise_level_bounds"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Imputation transformer for completing missing values.",
         "full_name": "sklearn.impute.SimpleImputer",
+        "href": "generated/sklearn.impute.SimpleImputer.html#sklearn.impute.SimpleImputer",
         "name": "SimpleImputer",
+        "package_name": "module-sklearn.impute",
         "params": [
             "missing_values",
             "strategy",
@@ -1404,11 +1851,15 @@
             "verbose",
             "copy",
             "add_indicator"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Multivariate imputer that estimates each feature from all the others.",
         "full_name": "sklearn.impute.IterativeImputer",
+        "href": "generated/sklearn.impute.IterativeImputer.html#sklearn.impute.IterativeImputer",
         "name": "IterativeImputer",
+        "package_name": "module-sklearn.impute",
         "params": [
             "estimator",
             "missing_values",
@@ -1424,21 +1875,29 @@
             "verbose",
             "random_state",
             "add_indicator"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Binary indicators for missing values.",
         "full_name": "sklearn.impute.MissingIndicator",
+        "href": "generated/sklearn.impute.MissingIndicator.html#sklearn.impute.MissingIndicator",
         "name": "MissingIndicator",
+        "package_name": "module-sklearn.impute",
         "params": [
             "missing_values",
             "features",
             "sparse",
             "error_on_new"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Imputation for completing missing values using k-Nearest Neighbors.",
         "full_name": "sklearn.impute.KNNImputer",
+        "href": "generated/sklearn.impute.KNNImputer.html#sklearn.impute.KNNImputer",
         "name": "KNNImputer",
+        "package_name": "module-sklearn.impute",
         "params": [
             "missing_values",
             "n_neighbors",
@@ -1446,11 +1905,15 @@
             "metric",
             "copy",
             "add_indicator"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Partial Dependence Plot (PDP).",
         "full_name": "sklearn.inspection.PartialDependenceDisplay",
+        "href": "generated/sklearn.inspection.PartialDependenceDisplay.html#sklearn.inspection.PartialDependenceDisplay",
         "name": "PartialDependenceDisplay",
+        "package_name": "module-sklearn.inspection",
         "params": [
             "pd_results",
             "features",
@@ -1461,29 +1924,41 @@
             "kind",
             "subsample",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Isotonic regression model.",
         "full_name": "sklearn.isotonic.IsotonicRegression",
+        "href": "generated/sklearn.isotonic.IsotonicRegression.html#sklearn.isotonic.IsotonicRegression",
         "name": "IsotonicRegression",
+        "package_name": "module-sklearn.isotonic",
         "params": [
             "y_min",
             "y_max",
             "increasing",
             "out_of_bounds"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Approximate feature map for additive chi2 kernel.",
         "full_name": "sklearn.kernel_approximation.AdditiveChi2Sampler",
+        "href": "generated/sklearn.kernel_approximation.AdditiveChi2Sampler.html#sklearn.kernel_approximation.AdditiveChi2Sampler",
         "name": "AdditiveChi2Sampler",
+        "package_name": "module-sklearn.kernel_approximation",
         "params": [
             "sample_steps",
             "sample_interval"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Approximate a kernel map using a subset of the training data.",
         "full_name": "sklearn.kernel_approximation.Nystroem",
+        "href": "generated/sklearn.kernel_approximation.Nystroem.html#sklearn.kernel_approximation.Nystroem",
         "name": "Nystroem",
+        "package_name": "module-sklearn.kernel_approximation",
         "params": [
             "kernel",
             "gamma",
@@ -1493,40 +1968,56 @@
             "n_components",
             "random_state",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Polynomial kernel approximation via Tensor Sketch.",
         "full_name": "sklearn.kernel_approximation.PolynomialCountSketch",
+        "href": "generated/sklearn.kernel_approximation.PolynomialCountSketch.html#sklearn.kernel_approximation.PolynomialCountSketch",
         "name": "PolynomialCountSketch",
+        "package_name": "module-sklearn.kernel_approximation",
         "params": [
             "gamma",
             "degree",
             "coef0",
             "n_components",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Approximate a RBF kernel feature map using random Fourier features.",
         "full_name": "sklearn.kernel_approximation.RBFSampler",
+        "href": "generated/sklearn.kernel_approximation.RBFSampler.html#sklearn.kernel_approximation.RBFSampler",
         "name": "RBFSampler",
+        "package_name": "module-sklearn.kernel_approximation",
         "params": [
             "gamma",
             "n_components",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Approximate feature map for \u201cskewed chi-squared\u201d kernel.",
         "full_name": "sklearn.kernel_approximation.SkewedChi2Sampler",
+        "href": "generated/sklearn.kernel_approximation.SkewedChi2Sampler.html#sklearn.kernel_approximation.SkewedChi2Sampler",
         "name": "SkewedChi2Sampler",
+        "package_name": "module-sklearn.kernel_approximation",
         "params": [
             "skewedness",
             "n_components",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Kernel ridge regression.",
         "full_name": "sklearn.kernel_ridge.KernelRidge",
+        "href": "generated/sklearn.kernel_ridge.KernelRidge.html#sklearn.kernel_ridge.KernelRidge",
         "name": "KernelRidge",
+        "package_name": "module-sklearn.kernel_ridge",
         "params": [
             "alpha",
             "kernel",
@@ -1534,11 +2025,15 @@
             "degree",
             "coef0",
             "kernel_params"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Logistic Regression (aka logit, MaxEnt) classifier.",
         "full_name": "sklearn.linear_model.LogisticRegression",
+        "href": "generated/sklearn.linear_model.LogisticRegression.html#sklearn.linear_model.LogisticRegression",
         "name": "LogisticRegression",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "penalty",
             "dual",
@@ -1555,11 +2050,15 @@
             "warm_start",
             "n_jobs",
             "l1_ratio"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Logistic Regression CV (aka logit, MaxEnt) classifier.",
         "full_name": "sklearn.linear_model.LogisticRegressionCV",
+        "href": "generated/sklearn.linear_model.LogisticRegressionCV.html#sklearn.linear_model.LogisticRegressionCV",
         "name": "LogisticRegressionCV",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "Cs",
             "fit_intercept",
@@ -1578,11 +2077,15 @@
             "multi_class",
             "random_state",
             "l1_ratios"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Passive Aggressive Classifier.",
         "full_name": "sklearn.linear_model.PassiveAggressiveClassifier",
+        "href": "generated/sklearn.linear_model.PassiveAggressiveClassifier.html#sklearn.linear_model.PassiveAggressiveClassifier",
         "name": "PassiveAggressiveClassifier",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "C",
             "fit_intercept",
@@ -1599,11 +2102,15 @@
             "warm_start",
             "class_weight",
             "average"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Linear perceptron classifier.",
         "full_name": "sklearn.linear_model.Perceptron",
+        "href": "generated/sklearn.linear_model.Perceptron.html#sklearn.linear_model.Perceptron",
         "name": "Perceptron",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "penalty",
             "alpha",
@@ -1621,11 +2128,15 @@
             "n_iter_no_change",
             "class_weight",
             "warm_start"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Classifier using Ridge regression.",
         "full_name": "sklearn.linear_model.RidgeClassifier",
+        "href": "generated/sklearn.linear_model.RidgeClassifier.html#sklearn.linear_model.RidgeClassifier",
         "name": "RidgeClassifier",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "alpha",
             "fit_intercept",
@@ -1637,11 +2148,15 @@
             "solver",
             "positive",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Ridge classifier with built-in cross-validation.",
         "full_name": "sklearn.linear_model.RidgeClassifierCV",
+        "href": "generated/sklearn.linear_model.RidgeClassifierCV.html#sklearn.linear_model.RidgeClassifierCV",
         "name": "RidgeClassifierCV",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "alphas",
             "fit_intercept",
@@ -1650,11 +2165,15 @@
             "cv",
             "class_weight",
             "store_cv_values"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Linear classifiers (SVM, logistic regression, etc.) with SGD training.",
         "full_name": "sklearn.linear_model.SGDClassifier",
+        "href": "generated/sklearn.linear_model.SGDClassifier.html#sklearn.linear_model.SGDClassifier",
         "name": "SGDClassifier",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "loss",
             "penalty",
@@ -1677,11 +2196,15 @@
             "class_weight",
             "warm_start",
             "average"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Solves linear One-Class SVM using Stochastic Gradient Descent.",
         "full_name": "sklearn.linear_model.SGDOneClassSVM",
+        "href": "generated/sklearn.linear_model.SGDOneClassSVM.html#sklearn.linear_model.SGDOneClassSVM",
         "name": "SGDOneClassSVM",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "nu",
             "fit_intercept",
@@ -1695,22 +2218,30 @@
             "power_t",
             "warm_start",
             "average"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Ordinary least squares Linear Regression.",
         "full_name": "sklearn.linear_model.LinearRegression",
+        "href": "generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression",
         "name": "LinearRegression",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "fit_intercept",
             "normalize",
             "copy_X",
             "n_jobs",
             "positive"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Linear least squares with l2 regularization.",
         "full_name": "sklearn.linear_model.Ridge",
+        "href": "generated/sklearn.linear_model.Ridge.html#sklearn.linear_model.Ridge",
         "name": "Ridge",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "alpha",
             "fit_intercept",
@@ -1721,11 +2252,15 @@
             "solver",
             "positive",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Ridge regression with built-in cross-validation.",
         "full_name": "sklearn.linear_model.RidgeCV",
+        "href": "generated/sklearn.linear_model.RidgeCV.html#sklearn.linear_model.RidgeCV",
         "name": "RidgeCV",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "alphas",
             "fit_intercept",
@@ -1735,11 +2270,15 @@
             "gcv_mode",
             "store_cv_values",
             "alpha_per_target"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Linear model fitted by minimizing a regularized empirical loss with SGD.",
         "full_name": "sklearn.linear_model.SGDRegressor",
+        "href": "generated/sklearn.linear_model.SGDRegressor.html#sklearn.linear_model.SGDRegressor",
         "name": "SGDRegressor",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "loss",
             "penalty",
@@ -1760,11 +2299,15 @@
             "n_iter_no_change",
             "warm_start",
             "average"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Linear regression with combined L1 and L2 priors as regularizer.",
         "full_name": "sklearn.linear_model.ElasticNet",
+        "href": "generated/sklearn.linear_model.ElasticNet.html#sklearn.linear_model.ElasticNet",
         "name": "ElasticNet",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "alpha",
             "l1_ratio",
@@ -1778,11 +2321,15 @@
             "positive",
             "random_state",
             "selection"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Elastic Net model with iterative fitting along a regularization path.",
         "full_name": "sklearn.linear_model.ElasticNetCV",
+        "href": "generated/sklearn.linear_model.ElasticNetCV.html#sklearn.linear_model.ElasticNetCV",
         "name": "ElasticNetCV",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "l1_ratio",
             "eps",
@@ -1800,11 +2347,15 @@
             "positive",
             "random_state",
             "selection"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Least Angle Regression model a.k.a.",
         "full_name": "sklearn.linear_model.Lars",
+        "href": "generated/sklearn.linear_model.Lars.html#sklearn.linear_model.Lars",
         "name": "Lars",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "fit_intercept",
             "verbose",
@@ -1816,11 +2367,15 @@
             "fit_path",
             "jitter",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Cross-validated Least Angle Regression model.",
         "full_name": "sklearn.linear_model.LarsCV",
+        "href": "generated/sklearn.linear_model.LarsCV.html#sklearn.linear_model.LarsCV",
         "name": "LarsCV",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "fit_intercept",
             "verbose",
@@ -1832,11 +2387,15 @@
             "n_jobs",
             "eps",
             "copy_X"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Linear Model trained with L1 prior as regularizer (aka the Lasso).",
         "full_name": "sklearn.linear_model.Lasso",
+        "href": "generated/sklearn.linear_model.Lasso.html#sklearn.linear_model.Lasso",
         "name": "Lasso",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "alpha",
             "fit_intercept",
@@ -1849,11 +2408,15 @@
             "positive",
             "random_state",
             "selection"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Lasso linear model with iterative fitting along a regularization path.",
         "full_name": "sklearn.linear_model.LassoCV",
+        "href": "generated/sklearn.linear_model.LassoCV.html#sklearn.linear_model.LassoCV",
         "name": "LassoCV",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "eps",
             "n_alphas",
@@ -1870,11 +2433,15 @@
             "positive",
             "random_state",
             "selection"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Lasso model fit with Least Angle Regression a.k.a.",
         "full_name": "sklearn.linear_model.LassoLars",
+        "href": "generated/sklearn.linear_model.LassoLars.html#sklearn.linear_model.LassoLars",
         "name": "LassoLars",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "alpha",
             "fit_intercept",
@@ -1888,11 +2455,15 @@
             "positive",
             "jitter",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Cross-validated Lasso, using the LARS algorithm.",
         "full_name": "sklearn.linear_model.LassoLarsCV",
+        "href": "generated/sklearn.linear_model.LassoLarsCV.html#sklearn.linear_model.LassoLarsCV",
         "name": "LassoLarsCV",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "fit_intercept",
             "verbose",
@@ -1905,11 +2476,15 @@
             "eps",
             "copy_X",
             "positive"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Lasso model fit with Lars using BIC or AIC for model selection.",
         "full_name": "sklearn.linear_model.LassoLarsIC",
+        "href": "generated/sklearn.linear_model.LassoLarsIC.html#sklearn.linear_model.LassoLarsIC",
         "name": "LassoLarsIC",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "criterion",
             "fit_intercept",
@@ -1920,22 +2495,30 @@
             "eps",
             "copy_X",
             "positive"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Orthogonal Matching Pursuit model (OMP).",
         "full_name": "sklearn.linear_model.OrthogonalMatchingPursuit",
+        "href": "generated/sklearn.linear_model.OrthogonalMatchingPursuit.html#sklearn.linear_model.OrthogonalMatchingPursuit",
         "name": "OrthogonalMatchingPursuit",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "n_nonzero_coefs",
             "tol",
             "fit_intercept",
             "normalize",
             "precompute"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Cross-validated Orthogonal Matching Pursuit model (OMP).",
         "full_name": "sklearn.linear_model.OrthogonalMatchingPursuitCV",
+        "href": "generated/sklearn.linear_model.OrthogonalMatchingPursuitCV.html#sklearn.linear_model.OrthogonalMatchingPursuitCV",
         "name": "OrthogonalMatchingPursuitCV",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "copy",
             "fit_intercept",
@@ -1944,11 +2527,15 @@
             "cv",
             "n_jobs",
             "verbose"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Bayesian ARD regression.",
         "full_name": "sklearn.linear_model.ARDRegression",
+        "href": "generated/sklearn.linear_model.ARDRegression.html#sklearn.linear_model.ARDRegression",
         "name": "ARDRegression",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "n_iter",
             "tol",
@@ -1962,11 +2549,15 @@
             "normalize",
             "copy_X",
             "verbose"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Bayesian ridge regression.",
         "full_name": "sklearn.linear_model.BayesianRidge",
+        "href": "generated/sklearn.linear_model.BayesianRidge.html#sklearn.linear_model.BayesianRidge",
         "name": "BayesianRidge",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "n_iter",
             "tol",
@@ -1981,11 +2572,15 @@
             "normalize",
             "copy_X",
             "verbose"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Multi-task ElasticNet model trained with L1/L2 mixed-norm as regularizer.",
         "full_name": "sklearn.linear_model.MultiTaskElasticNet",
+        "href": "generated/sklearn.linear_model.MultiTaskElasticNet.html#sklearn.linear_model.MultiTaskElasticNet",
         "name": "MultiTaskElasticNet",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "alpha",
             "l1_ratio",
@@ -1997,11 +2592,15 @@
             "warm_start",
             "random_state",
             "selection"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Multi-task L1/L2 ElasticNet with built-in cross-validation.",
         "full_name": "sklearn.linear_model.MultiTaskElasticNetCV",
+        "href": "generated/sklearn.linear_model.MultiTaskElasticNetCV.html#sklearn.linear_model.MultiTaskElasticNetCV",
         "name": "MultiTaskElasticNetCV",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "l1_ratio",
             "eps",
@@ -2017,11 +2616,15 @@
             "n_jobs",
             "random_state",
             "selection"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Multi-task Lasso model trained with L1/L2 mixed-norm as regularizer.",
         "full_name": "sklearn.linear_model.MultiTaskLasso",
+        "href": "generated/sklearn.linear_model.MultiTaskLasso.html#sklearn.linear_model.MultiTaskLasso",
         "name": "MultiTaskLasso",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "alpha",
             "fit_intercept",
@@ -2032,11 +2635,15 @@
             "warm_start",
             "random_state",
             "selection"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Multi-task Lasso model trained with L1/L2 mixed-norm as regularizer.",
         "full_name": "sklearn.linear_model.MultiTaskLassoCV",
+        "href": "generated/sklearn.linear_model.MultiTaskLassoCV.html#sklearn.linear_model.MultiTaskLassoCV",
         "name": "MultiTaskLassoCV",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "eps",
             "n_alphas",
@@ -2051,11 +2658,15 @@
             "n_jobs",
             "random_state",
             "selection"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Linear regression model that is robust to outliers.",
         "full_name": "sklearn.linear_model.HuberRegressor",
+        "href": "generated/sklearn.linear_model.HuberRegressor.html#sklearn.linear_model.HuberRegressor",
         "name": "HuberRegressor",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "epsilon",
             "max_iter",
@@ -2063,22 +2674,30 @@
             "warm_start",
             "fit_intercept",
             "tol"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Linear regression model that predicts conditional quantiles.",
         "full_name": "sklearn.linear_model.QuantileRegressor",
+        "href": "generated/sklearn.linear_model.QuantileRegressor.html#sklearn.linear_model.QuantileRegressor",
         "name": "QuantileRegressor",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "quantile",
             "alpha",
             "fit_intercept",
             "solver",
             "solver_options"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "RANSAC (RANdom SAmple Consensus) algorithm.",
         "full_name": "sklearn.linear_model.RANSACRegressor",
+        "href": "generated/sklearn.linear_model.RANSACRegressor.html#sklearn.linear_model.RANSACRegressor",
         "name": "RANSACRegressor",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "base_estimator",
             "min_samples",
@@ -2092,11 +2711,15 @@
             "stop_probability",
             "loss",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Theil-Sen Estimator: robust multivariate regression model.",
         "full_name": "sklearn.linear_model.TheilSenRegressor",
+        "href": "generated/sklearn.linear_model.TheilSenRegressor.html#sklearn.linear_model.TheilSenRegressor",
         "name": "TheilSenRegressor",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "fit_intercept",
             "copy_X",
@@ -2107,11 +2730,15 @@
             "random_state",
             "n_jobs",
             "verbose"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Generalized Linear Model with a Poisson distribution.",
         "full_name": "sklearn.linear_model.PoissonRegressor",
+        "href": "generated/sklearn.linear_model.PoissonRegressor.html#sklearn.linear_model.PoissonRegressor",
         "name": "PoissonRegressor",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "alpha",
             "fit_intercept",
@@ -2119,11 +2746,15 @@
             "tol",
             "warm_start",
             "verbose"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Generalized Linear Model with a Tweedie distribution.",
         "full_name": "sklearn.linear_model.TweedieRegressor",
+        "href": "generated/sklearn.linear_model.TweedieRegressor.html#sklearn.linear_model.TweedieRegressor",
         "name": "TweedieRegressor",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "power",
             "alpha",
@@ -2133,11 +2764,15 @@
             "tol",
             "warm_start",
             "verbose"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Generalized Linear Model with a Gamma distribution.",
         "full_name": "sklearn.linear_model.GammaRegressor",
+        "href": "generated/sklearn.linear_model.GammaRegressor.html#sklearn.linear_model.GammaRegressor",
         "name": "GammaRegressor",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "alpha",
             "fit_intercept",
@@ -2145,11 +2780,15 @@
             "tol",
             "warm_start",
             "verbose"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Passive Aggressive Regressor.",
         "full_name": "sklearn.linear_model.PassiveAggressiveRegressor",
+        "href": "generated/sklearn.linear_model.PassiveAggressiveRegressor.html#sklearn.linear_model.PassiveAggressiveRegressor",
         "name": "PassiveAggressiveRegressor",
+        "package_name": "module-sklearn.linear_model",
         "params": [
             "C",
             "fit_intercept",
@@ -2165,11 +2804,15 @@
             "random_state",
             "warm_start",
             "average"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Isomap Embedding.",
         "full_name": "sklearn.manifold.Isomap",
+        "href": "generated/sklearn.manifold.Isomap.html#sklearn.manifold.Isomap",
         "name": "Isomap",
+        "package_name": "module-sklearn.manifold",
         "params": [
             "n_neighbors",
             "n_components",
@@ -2182,11 +2825,15 @@
             "metric",
             "p",
             "metric_params"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Locally Linear Embedding.",
         "full_name": "sklearn.manifold.LocallyLinearEmbedding",
+        "href": "generated/sklearn.manifold.LocallyLinearEmbedding.html#sklearn.manifold.LocallyLinearEmbedding",
         "name": "LocallyLinearEmbedding",
+        "package_name": "module-sklearn.manifold",
         "params": [
             "n_neighbors",
             "n_components",
@@ -2200,11 +2847,15 @@
             "neighbors_algorithm",
             "random_state",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Multidimensional scaling.",
         "full_name": "sklearn.manifold.MDS",
+        "href": "generated/sklearn.manifold.MDS.html#sklearn.manifold.MDS",
         "name": "MDS",
+        "package_name": "module-sklearn.manifold",
         "params": [
             "n_components",
             "metric",
@@ -2215,11 +2866,15 @@
             "n_jobs",
             "random_state",
             "dissimilarity"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Spectral embedding for non-linear dimensionality reduction.",
         "full_name": "sklearn.manifold.SpectralEmbedding",
+        "href": "generated/sklearn.manifold.SpectralEmbedding.html#sklearn.manifold.SpectralEmbedding",
         "name": "SpectralEmbedding",
+        "package_name": "module-sklearn.manifold",
         "params": [
             "n_components",
             "affinity",
@@ -2228,11 +2883,15 @@
             "eigen_solver",
             "n_neighbors",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "T-distributed Stochastic Neighbor Embedding.",
         "full_name": "sklearn.manifold.TSNE",
+        "href": "generated/sklearn.manifold.TSNE.html#sklearn.manifold.TSNE",
         "name": "TSNE",
+        "package_name": "module-sklearn.manifold",
         "params": [
             "n_components",
             "perplexity",
@@ -2249,61 +2908,85 @@
             "angle",
             "n_jobs",
             "square_distances"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Confusion Matrix visualization.",
         "full_name": "sklearn.metrics.ConfusionMatrixDisplay",
+        "href": "generated/sklearn.metrics.ConfusionMatrixDisplay.html#sklearn.metrics.ConfusionMatrixDisplay",
         "name": "ConfusionMatrixDisplay",
+        "package_name": "sklearn-metrics-metrics",
         "params": [
             "confusion_matrix",
             "display_labels"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "DET curve visualization.",
         "full_name": "sklearn.metrics.DetCurveDisplay",
+        "href": "generated/sklearn.metrics.DetCurveDisplay.html#sklearn.metrics.DetCurveDisplay",
         "name": "DetCurveDisplay",
+        "package_name": "sklearn-metrics-metrics",
         "params": [
             "fpr",
             "fnr",
             "estimator_name",
             "pos_label"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Precision Recall visualization.",
         "full_name": "sklearn.metrics.PrecisionRecallDisplay",
+        "href": "generated/sklearn.metrics.PrecisionRecallDisplay.html#sklearn.metrics.PrecisionRecallDisplay",
         "name": "PrecisionRecallDisplay",
+        "package_name": "sklearn-metrics-metrics",
         "params": [
             "precision",
             "recall",
             "average_precision",
             "estimator_name",
             "pos_label"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "ROC Curve visualization.",
         "full_name": "sklearn.metrics.RocCurveDisplay",
+        "href": "generated/sklearn.metrics.RocCurveDisplay.html#sklearn.metrics.RocCurveDisplay",
         "name": "RocCurveDisplay",
+        "package_name": "sklearn-metrics-metrics",
         "params": [
             "fpr",
             "tpr",
             "roc_auc",
             "estimator_name",
             "pos_label"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Calibration curve (also known as reliability diagram) visualization.",
         "full_name": "sklearn.calibration.CalibrationDisplay",
+        "href": "generated/sklearn.calibration.CalibrationDisplay.html#sklearn.calibration.CalibrationDisplay",
         "name": "CalibrationDisplay",
+        "package_name": "sklearn-metrics-metrics",
         "params": [
             "prob_true",
             "prob_pred",
             "y_prob",
             "estimator_name"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Variational Bayesian estimation of a Gaussian mixture.",
         "full_name": "sklearn.mixture.BayesianGaussianMixture",
+        "href": "generated/sklearn.mixture.BayesianGaussianMixture.html#sklearn.mixture.BayesianGaussianMixture",
         "name": "BayesianGaussianMixture",
+        "package_name": "module-sklearn.mixture",
         "params": [
             "n_components",
             "covariance_type",
@@ -2322,11 +3005,15 @@
             "warm_start",
             "verbose",
             "verbose_interval"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Gaussian Mixture.",
         "full_name": "sklearn.mixture.GaussianMixture",
+        "href": "generated/sklearn.mixture.GaussianMixture.html#sklearn.mixture.GaussianMixture",
         "name": "GaussianMixture",
+        "package_name": "module-sklearn.mixture",
         "params": [
             "n_components",
             "covariance_type",
@@ -2342,142 +3029,206 @@
             "warm_start",
             "verbose",
             "verbose_interval"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "K-fold iterator variant with non-overlapping groups.",
         "full_name": "sklearn.model_selection.GroupKFold",
+        "href": "generated/sklearn.model_selection.GroupKFold.html#sklearn.model_selection.GroupKFold",
         "name": "GroupKFold",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "n_splits"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Shuffle-Group(s)-Out cross-validation iterator",
         "full_name": "sklearn.model_selection.GroupShuffleSplit",
+        "href": "generated/sklearn.model_selection.GroupShuffleSplit.html#sklearn.model_selection.GroupShuffleSplit",
         "name": "GroupShuffleSplit",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "n_splits",
             "test_size",
             "train_size",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "K-Folds cross-validator",
         "full_name": "sklearn.model_selection.KFold",
+        "href": "generated/sklearn.model_selection.KFold.html#sklearn.model_selection.KFold",
         "name": "KFold",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "n_splits",
             "shuffle",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Leave One Group Out cross-validator",
         "full_name": "sklearn.model_selection.LeaveOneGroupOut",
+        "href": "generated/sklearn.model_selection.LeaveOneGroupOut.html#sklearn.model_selection.LeaveOneGroupOut",
         "name": "LeaveOneGroupOut",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "X",
             "y",
             "groups"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Leave P Group(s) Out cross-validator",
         "full_name": "sklearn.model_selection.LeavePGroupsOut",
+        "href": "generated/sklearn.model_selection.LeavePGroupsOut.html#sklearn.model_selection.LeavePGroupsOut",
         "name": "LeavePGroupsOut",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "n_groups"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Leave-One-Out cross-validator",
         "full_name": "sklearn.model_selection.LeaveOneOut",
+        "href": "generated/sklearn.model_selection.LeaveOneOut.html#sklearn.model_selection.LeaveOneOut",
         "name": "LeaveOneOut",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "X",
             "y",
             "groups"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Leave-P-Out cross-validator",
         "full_name": "sklearn.model_selection.LeavePOut",
+        "href": "generated/sklearn.model_selection.LeavePOut.html#sklearn.model_selection.LeavePOut",
         "name": "LeavePOut",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "p"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Predefined split cross-validator",
         "full_name": "sklearn.model_selection.PredefinedSplit",
+        "href": "generated/sklearn.model_selection.PredefinedSplit.html#sklearn.model_selection.PredefinedSplit",
         "name": "PredefinedSplit",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "test_fold"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Repeated K-Fold cross validator.",
         "full_name": "sklearn.model_selection.RepeatedKFold",
+        "href": "generated/sklearn.model_selection.RepeatedKFold.html#sklearn.model_selection.RepeatedKFold",
         "name": "RepeatedKFold",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "n_splits",
             "n_repeats",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Repeated Stratified K-Fold cross validator.",
         "full_name": "sklearn.model_selection.RepeatedStratifiedKFold",
+        "href": "generated/sklearn.model_selection.RepeatedStratifiedKFold.html#sklearn.model_selection.RepeatedStratifiedKFold",
         "name": "RepeatedStratifiedKFold",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "n_splits",
             "n_repeats",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Random permutation cross-validator",
         "full_name": "sklearn.model_selection.ShuffleSplit",
+        "href": "generated/sklearn.model_selection.ShuffleSplit.html#sklearn.model_selection.ShuffleSplit",
         "name": "ShuffleSplit",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "n_splits",
             "test_size",
             "train_size",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Stratified K-Folds cross-validator.",
         "full_name": "sklearn.model_selection.StratifiedKFold",
+        "href": "generated/sklearn.model_selection.StratifiedKFold.html#sklearn.model_selection.StratifiedKFold",
         "name": "StratifiedKFold",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "n_splits",
             "shuffle",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Stratified ShuffleSplit cross-validator",
         "full_name": "sklearn.model_selection.StratifiedShuffleSplit",
+        "href": "generated/sklearn.model_selection.StratifiedShuffleSplit.html#sklearn.model_selection.StratifiedShuffleSplit",
         "name": "StratifiedShuffleSplit",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "n_splits",
             "test_size",
             "train_size",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Stratified K-Folds iterator variant with non-overlapping groups.",
         "full_name": "sklearn.model_selection.StratifiedGroupKFold",
+        "href": "generated/sklearn.model_selection.StratifiedGroupKFold.html#sklearn.model_selection.StratifiedGroupKFold",
         "name": "StratifiedGroupKFold",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "n_splits",
             "shuffle",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Time Series cross-validator",
         "full_name": "sklearn.model_selection.TimeSeriesSplit",
+        "href": "generated/sklearn.model_selection.TimeSeriesSplit.html#sklearn.model_selection.TimeSeriesSplit",
         "name": "TimeSeriesSplit",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "n_splits",
             "max_train_size",
             "test_size",
             "gap"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Exhaustive search over specified parameter values for an estimator.",
         "full_name": "sklearn.model_selection.GridSearchCV",
+        "href": "generated/sklearn.model_selection.GridSearchCV.html#sklearn.model_selection.GridSearchCV",
         "name": "GridSearchCV",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "estimator",
             "param_grid",
@@ -2489,11 +3240,15 @@
             "pre_dispatch",
             "error_score",
             "return_train_score"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Search over specified parameter values with successive halving.",
         "full_name": "sklearn.model_selection.HalvingGridSearchCV",
+        "href": "generated/sklearn.model_selection.HalvingGridSearchCV.html#sklearn.model_selection.HalvingGridSearchCV",
         "name": "HalvingGridSearchCV",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "estimator",
             "param_grid",
@@ -2510,27 +3265,39 @@
             "random_state",
             "n_jobs",
             "verbose"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Grid of parameters with a discrete number of values for each.",
         "full_name": "sklearn.model_selection.ParameterGrid",
+        "href": "generated/sklearn.model_selection.ParameterGrid.html#sklearn.model_selection.ParameterGrid",
         "name": "ParameterGrid",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "param_grid"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Generator on parameters sampled from given distributions.",
         "full_name": "sklearn.model_selection.ParameterSampler",
+        "href": "generated/sklearn.model_selection.ParameterSampler.html#sklearn.model_selection.ParameterSampler",
         "name": "ParameterSampler",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "param_distributions",
             "n_iter",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Randomized search on hyper parameters.",
         "full_name": "sklearn.model_selection.RandomizedSearchCV",
+        "href": "generated/sklearn.model_selection.RandomizedSearchCV.html#sklearn.model_selection.RandomizedSearchCV",
         "name": "RandomizedSearchCV",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "estimator",
             "param_distributions",
@@ -2544,11 +3311,15 @@
             "random_state",
             "error_score",
             "return_train_score"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Randomized search on hyper parameters.",
         "full_name": "sklearn.model_selection.HalvingRandomSearchCV",
+        "href": "generated/sklearn.model_selection.HalvingRandomSearchCV.html#sklearn.model_selection.HalvingRandomSearchCV",
         "name": "HalvingRandomSearchCV",
+        "package_name": "module-sklearn.model_selection",
         "params": [
             "estimator",
             "param_distributions",
@@ -2566,120 +3337,172 @@
             "random_state",
             "n_jobs",
             "verbose"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "One-vs-the-rest (OvR) multiclass strategy.",
         "full_name": "sklearn.multiclass.OneVsRestClassifier",
+        "href": "generated/sklearn.multiclass.OneVsRestClassifier.html#sklearn.multiclass.OneVsRestClassifier",
         "name": "OneVsRestClassifier",
+        "package_name": "module-sklearn.multiclass",
         "params": [
             "estimator",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "One-vs-one multiclass strategy.",
         "full_name": "sklearn.multiclass.OneVsOneClassifier",
+        "href": "generated/sklearn.multiclass.OneVsOneClassifier.html#sklearn.multiclass.OneVsOneClassifier",
         "name": "OneVsOneClassifier",
+        "package_name": "module-sklearn.multiclass",
         "params": [
             "estimator",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "(Error-Correcting) Output-Code multiclass strategy.",
         "full_name": "sklearn.multiclass.OutputCodeClassifier",
+        "href": "generated/sklearn.multiclass.OutputCodeClassifier.html#sklearn.multiclass.OutputCodeClassifier",
         "name": "OutputCodeClassifier",
+        "package_name": "module-sklearn.multiclass",
         "params": [
             "estimator",
             "code_size",
             "random_state",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "A multi-label model that arranges binary classifiers into a chain.",
         "full_name": "sklearn.multioutput.ClassifierChain",
+        "href": "generated/sklearn.multioutput.ClassifierChain.html#sklearn.multioutput.ClassifierChain",
         "name": "ClassifierChain",
+        "package_name": "module-sklearn.multioutput",
         "params": [
             "base_estimator",
             "order",
             "cv",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Multi target regression.",
         "full_name": "sklearn.multioutput.MultiOutputRegressor",
+        "href": "generated/sklearn.multioutput.MultiOutputRegressor.html#sklearn.multioutput.MultiOutputRegressor",
         "name": "MultiOutputRegressor",
+        "package_name": "module-sklearn.multioutput",
         "params": [
             "estimator",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Multi target classification.",
         "full_name": "sklearn.multioutput.MultiOutputClassifier",
+        "href": "generated/sklearn.multioutput.MultiOutputClassifier.html#sklearn.multioutput.MultiOutputClassifier",
         "name": "MultiOutputClassifier",
+        "package_name": "module-sklearn.multioutput",
         "params": [
             "estimator",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "A multi-label model that arranges regressions into a chain.",
         "full_name": "sklearn.multioutput.RegressorChain",
+        "href": "generated/sklearn.multioutput.RegressorChain.html#sklearn.multioutput.RegressorChain",
         "name": "RegressorChain",
+        "package_name": "module-sklearn.multioutput",
         "params": [
             "base_estimator",
             "order",
             "cv",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Naive Bayes classifier for multivariate Bernoulli models.",
         "full_name": "sklearn.naive_bayes.BernoulliNB",
+        "href": "generated/sklearn.naive_bayes.BernoulliNB.html#sklearn.naive_bayes.BernoulliNB",
         "name": "BernoulliNB",
+        "package_name": "module-sklearn.naive_bayes",
         "params": [
             "alpha",
             "binarize",
             "fit_prior",
             "class_prior"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Naive Bayes classifier for categorical features.",
         "full_name": "sklearn.naive_bayes.CategoricalNB",
+        "href": "generated/sklearn.naive_bayes.CategoricalNB.html#sklearn.naive_bayes.CategoricalNB",
         "name": "CategoricalNB",
+        "package_name": "module-sklearn.naive_bayes",
         "params": [
             "alpha",
             "fit_prior",
             "class_prior",
             "min_categories"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "The Complement Naive Bayes classifier described in Rennie et al. (2003).",
         "full_name": "sklearn.naive_bayes.ComplementNB",
+        "href": "generated/sklearn.naive_bayes.ComplementNB.html#sklearn.naive_bayes.ComplementNB",
         "name": "ComplementNB",
+        "package_name": "module-sklearn.naive_bayes",
         "params": [
             "alpha",
             "fit_prior",
             "class_prior",
             "norm"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Gaussian Naive Bayes (GaussianNB).",
         "full_name": "sklearn.naive_bayes.GaussianNB",
+        "href": "generated/sklearn.naive_bayes.GaussianNB.html#sklearn.naive_bayes.GaussianNB",
         "name": "GaussianNB",
+        "package_name": "module-sklearn.naive_bayes",
         "params": [
             "priors",
             "var_smoothing"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Naive Bayes classifier for multinomial models.",
         "full_name": "sklearn.naive_bayes.MultinomialNB",
+        "href": "generated/sklearn.naive_bayes.MultinomialNB.html#sklearn.naive_bayes.MultinomialNB",
         "name": "MultinomialNB",
+        "package_name": "module-sklearn.naive_bayes",
         "params": [
             "alpha",
             "fit_prior",
             "class_prior"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "BallTree for fast generalized N-point problems",
         "full_name": "sklearn.neighbors.BallTree",
+        "href": "generated/sklearn.neighbors.BallTree.html#sklearn.neighbors.BallTree",
         "name": "BallTree",
+        "package_name": "module-sklearn.neighbors",
         "params": [
             "X",
             "leaf_size",
@@ -2687,18 +3510,26 @@
             "Additional keywords are passed to the distance metric class.",
             "Note: Callable functions in the metric parameter are NOT supported for KDTree",
             "and Ball Tree. Function call overhead will result in very poor performance."
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "DistanceMetric class",
         "full_name": "sklearn.neighbors.DistanceMetric",
+        "href": "generated/sklearn.neighbors.DistanceMetric.html#sklearn.neighbors.DistanceMetric",
         "name": "DistanceMetric",
+        "package_name": "module-sklearn.neighbors",
         "params": [
             "dist"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "KDTree for fast generalized N-point problems",
         "full_name": "sklearn.neighbors.KDTree",
+        "href": "generated/sklearn.neighbors.KDTree.html#sklearn.neighbors.KDTree",
         "name": "KDTree",
+        "package_name": "module-sklearn.neighbors",
         "params": [
             "X",
             "leaf_size",
@@ -2706,11 +3537,15 @@
             "Additional keywords are passed to the distance metric class.",
             "Note: Callable functions in the metric parameter are NOT supported for KDTree",
             "and Ball Tree. Function call overhead will result in very poor performance."
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Kernel Density Estimation.",
         "full_name": "sklearn.neighbors.KernelDensity",
+        "href": "generated/sklearn.neighbors.KernelDensity.html#sklearn.neighbors.KernelDensity",
         "name": "KernelDensity",
+        "package_name": "module-sklearn.neighbors",
         "params": [
             "bandwidth",
             "algorithm",
@@ -2721,11 +3556,15 @@
             "breadth_first",
             "leaf_size",
             "metric_params"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Classifier implementing the k-nearest neighbors vote.",
         "full_name": "sklearn.neighbors.KNeighborsClassifier",
+        "href": "generated/sklearn.neighbors.KNeighborsClassifier.html#sklearn.neighbors.KNeighborsClassifier",
         "name": "KNeighborsClassifier",
+        "package_name": "module-sklearn.neighbors",
         "params": [
             "n_neighbors",
             "weights",
@@ -2735,11 +3574,15 @@
             "metric",
             "metric_params",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Regression based on k-nearest neighbors.",
         "full_name": "sklearn.neighbors.KNeighborsRegressor",
+        "href": "generated/sklearn.neighbors.KNeighborsRegressor.html#sklearn.neighbors.KNeighborsRegressor",
         "name": "KNeighborsRegressor",
+        "package_name": "module-sklearn.neighbors",
         "params": [
             "n_neighbors",
             "weights",
@@ -2749,11 +3592,15 @@
             "metric",
             "metric_params",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Transform X into a (weighted) graph of k nearest neighbors.",
         "full_name": "sklearn.neighbors.KNeighborsTransformer",
+        "href": "generated/sklearn.neighbors.KNeighborsTransformer.html#sklearn.neighbors.KNeighborsTransformer",
         "name": "KNeighborsTransformer",
+        "package_name": "module-sklearn.neighbors",
         "params": [
             "mode",
             "n_neighbors",
@@ -2763,11 +3610,15 @@
             "p",
             "metric_params",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Unsupervised Outlier Detection using the Local Outlier Factor (LOF).",
         "full_name": "sklearn.neighbors.LocalOutlierFactor",
+        "href": "generated/sklearn.neighbors.LocalOutlierFactor.html#sklearn.neighbors.LocalOutlierFactor",
         "name": "LocalOutlierFactor",
+        "package_name": "module-sklearn.neighbors",
         "params": [
             "n_neighbors",
             "algorithm",
@@ -2778,11 +3629,15 @@
             "contamination",
             "novelty",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Classifier implementing a vote among neighbors within a given radius.",
         "full_name": "sklearn.neighbors.RadiusNeighborsClassifier",
+        "href": "generated/sklearn.neighbors.RadiusNeighborsClassifier.html#sklearn.neighbors.RadiusNeighborsClassifier",
         "name": "RadiusNeighborsClassifier",
+        "package_name": "module-sklearn.neighbors",
         "params": [
             "radius",
             "weights",
@@ -2794,11 +3649,15 @@
             "metric_params",
             "n_jobs",
             "**kwargs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Regression based on neighbors within a fixed radius.",
         "full_name": "sklearn.neighbors.RadiusNeighborsRegressor",
+        "href": "generated/sklearn.neighbors.RadiusNeighborsRegressor.html#sklearn.neighbors.RadiusNeighborsRegressor",
         "name": "RadiusNeighborsRegressor",
+        "package_name": "module-sklearn.neighbors",
         "params": [
             "radius",
             "weights",
@@ -2808,11 +3667,15 @@
             "metric",
             "metric_params",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Transform X into a (weighted) graph of neighbors nearer than a radius.",
         "full_name": "sklearn.neighbors.RadiusNeighborsTransformer",
+        "href": "generated/sklearn.neighbors.RadiusNeighborsTransformer.html#sklearn.neighbors.RadiusNeighborsTransformer",
         "name": "RadiusNeighborsTransformer",
+        "package_name": "module-sklearn.neighbors",
         "params": [
             "mode",
             "radius",
@@ -2822,19 +3685,27 @@
             "p",
             "metric_params",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Nearest centroid classifier.",
         "full_name": "sklearn.neighbors.NearestCentroid",
+        "href": "generated/sklearn.neighbors.NearestCentroid.html#sklearn.neighbors.NearestCentroid",
         "name": "NearestCentroid",
+        "package_name": "module-sklearn.neighbors",
         "params": [
             "metric",
             "shrink_threshold"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Unsupervised learner for implementing neighbor searches.",
         "full_name": "sklearn.neighbors.NearestNeighbors",
+        "href": "generated/sklearn.neighbors.NearestNeighbors.html#sklearn.neighbors.NearestNeighbors",
         "name": "NearestNeighbors",
+        "package_name": "module-sklearn.neighbors",
         "params": [
             "n_neighbors",
             "radius",
@@ -2844,11 +3715,15 @@
             "p",
             "metric_params",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Neighborhood Components Analysis.",
         "full_name": "sklearn.neighbors.NeighborhoodComponentsAnalysis",
+        "href": "generated/sklearn.neighbors.NeighborhoodComponentsAnalysis.html#sklearn.neighbors.NeighborhoodComponentsAnalysis",
         "name": "NeighborhoodComponentsAnalysis",
+        "package_name": "module-sklearn.neighbors",
         "params": [
             "n_components",
             "init",
@@ -2858,11 +3733,15 @@
             "callback",
             "verbose",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Bernoulli Restricted Boltzmann Machine (RBM).",
         "full_name": "sklearn.neural_network.BernoulliRBM",
+        "href": "generated/sklearn.neural_network.BernoulliRBM.html#sklearn.neural_network.BernoulliRBM",
         "name": "BernoulliRBM",
+        "package_name": "module-sklearn.neural_network",
         "params": [
             "n_components",
             "learning_rate",
@@ -2870,11 +3749,15 @@
             "n_iter",
             "verbose",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Multi-layer Perceptron classifier.",
         "full_name": "sklearn.neural_network.MLPClassifier",
+        "href": "generated/sklearn.neural_network.MLPClassifier.html#sklearn.neural_network.MLPClassifier",
         "name": "MLPClassifier",
+        "package_name": "module-sklearn.neural_network",
         "params": [
             "hidden_layer_sizes",
             "activation",
@@ -2899,11 +3782,15 @@
             "epsilon",
             "n_iter_no_change",
             "max_fun"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Multi-layer Perceptron regressor.",
         "full_name": "sklearn.neural_network.MLPRegressor",
+        "href": "generated/sklearn.neural_network.MLPRegressor.html#sklearn.neural_network.MLPRegressor",
         "name": "MLPRegressor",
+        "package_name": "module-sklearn.neural_network",
         "params": [
             "hidden_layer_sizes",
             "activation",
@@ -2928,38 +3815,54 @@
             "epsilon",
             "n_iter_no_change",
             "max_fun"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Concatenates results of multiple transformer objects.",
         "full_name": "sklearn.pipeline.FeatureUnion",
+        "href": "generated/sklearn.pipeline.FeatureUnion.html#sklearn.pipeline.FeatureUnion",
         "name": "FeatureUnion",
+        "package_name": "module-sklearn.pipeline",
         "params": [
             "transformer_list",
             "n_jobs",
             "transformer_weights",
             "verbose"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Pipeline of transforms with a final estimator.",
         "full_name": "sklearn.pipeline.Pipeline",
+        "href": "generated/sklearn.pipeline.Pipeline.html#sklearn.pipeline.Pipeline",
         "name": "Pipeline",
+        "package_name": "module-sklearn.pipeline",
         "params": [
             "steps",
             "memory",
             "verbose"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Binarize data (set feature values to 0 or 1) according to a threshold.",
         "full_name": "sklearn.preprocessing.Binarizer",
+        "href": "generated/sklearn.preprocessing.Binarizer.html#sklearn.preprocessing.Binarizer",
         "name": "Binarizer",
+        "package_name": "module-sklearn.preprocessing",
         "params": [
             "threshold",
             "copy"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Constructs a transformer from an arbitrary callable.",
         "full_name": "sklearn.preprocessing.FunctionTransformer",
+        "href": "generated/sklearn.preprocessing.FunctionTransformer.html#sklearn.preprocessing.FunctionTransformer",
         "name": "FunctionTransformer",
+        "package_name": "module-sklearn.preprocessing",
         "params": [
             "func",
             "inverse_func",
@@ -2968,112 +3871,164 @@
             "check_inverse",
             "kw_args",
             "inv_kw_args"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Bin continuous data into intervals.",
         "full_name": "sklearn.preprocessing.KBinsDiscretizer",
+        "href": "generated/sklearn.preprocessing.KBinsDiscretizer.html#sklearn.preprocessing.KBinsDiscretizer",
         "name": "KBinsDiscretizer",
+        "package_name": "module-sklearn.preprocessing",
         "params": [
             "n_bins",
             "encode",
             "strategy",
             "dtype"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Center an arbitrary kernel matrix \\(K\\).",
         "full_name": "sklearn.preprocessing.KernelCenterer",
+        "href": "generated/sklearn.preprocessing.KernelCenterer.html#sklearn.preprocessing.KernelCenterer",
         "name": "KernelCenterer",
-        "params": []
+        "package_name": "module-sklearn.preprocessing",
+        "params": [],
+        "type": "CLASS"
     },
     {
+        "description": "Binarize labels in a one-vs-all fashion.",
         "full_name": "sklearn.preprocessing.LabelBinarizer",
+        "href": "generated/sklearn.preprocessing.LabelBinarizer.html#sklearn.preprocessing.LabelBinarizer",
         "name": "LabelBinarizer",
+        "package_name": "module-sklearn.preprocessing",
         "params": [
             "neg_label",
             "pos_label",
             "sparse_output"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Encode target labels with value between 0 and n_classes-1.",
         "full_name": "sklearn.preprocessing.LabelEncoder",
+        "href": "generated/sklearn.preprocessing.LabelEncoder.html#sklearn.preprocessing.LabelEncoder",
         "name": "LabelEncoder",
-        "params": []
+        "package_name": "module-sklearn.preprocessing",
+        "params": [],
+        "type": "CLASS"
     },
     {
+        "description": "Transform between iterable of iterables and a multilabel format.",
         "full_name": "sklearn.preprocessing.MultiLabelBinarizer",
+        "href": "generated/sklearn.preprocessing.MultiLabelBinarizer.html#sklearn.preprocessing.MultiLabelBinarizer",
         "name": "MultiLabelBinarizer",
+        "package_name": "module-sklearn.preprocessing",
         "params": [
             "classes",
             "sparse_output"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Scale each feature by its maximum absolute value.",
         "full_name": "sklearn.preprocessing.MaxAbsScaler",
+        "href": "generated/sklearn.preprocessing.MaxAbsScaler.html#sklearn.preprocessing.MaxAbsScaler",
         "name": "MaxAbsScaler",
+        "package_name": "module-sklearn.preprocessing",
         "params": [
             "copy"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Transform features by scaling each feature to a given range.",
         "full_name": "sklearn.preprocessing.MinMaxScaler",
+        "href": "generated/sklearn.preprocessing.MinMaxScaler.html#sklearn.preprocessing.MinMaxScaler",
         "name": "MinMaxScaler",
+        "package_name": "module-sklearn.preprocessing",
         "params": [
             "feature_range",
             "copy",
             "clip"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Normalize samples individually to unit norm.",
         "full_name": "sklearn.preprocessing.Normalizer",
+        "href": "generated/sklearn.preprocessing.Normalizer.html#sklearn.preprocessing.Normalizer",
         "name": "Normalizer",
+        "package_name": "module-sklearn.preprocessing",
         "params": [
             "norm",
             "copy"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Encode categorical features as a one-hot numeric array.",
         "full_name": "sklearn.preprocessing.OneHotEncoder",
+        "href": "generated/sklearn.preprocessing.OneHotEncoder.html#sklearn.preprocessing.OneHotEncoder",
         "name": "OneHotEncoder",
+        "package_name": "module-sklearn.preprocessing",
         "params": [
             "categories",
             "drop",
             "sparse",
             "dtype",
             "handle_unknown"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Encode categorical features as an integer array.",
         "full_name": "sklearn.preprocessing.OrdinalEncoder",
+        "href": "generated/sklearn.preprocessing.OrdinalEncoder.html#sklearn.preprocessing.OrdinalEncoder",
         "name": "OrdinalEncoder",
+        "package_name": "module-sklearn.preprocessing",
         "params": [
             "categories",
             "dtype",
             "handle_unknown",
             "unknown_value"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Generate polynomial and interaction features.",
         "full_name": "sklearn.preprocessing.PolynomialFeatures",
+        "href": "generated/sklearn.preprocessing.PolynomialFeatures.html#sklearn.preprocessing.PolynomialFeatures",
         "name": "PolynomialFeatures",
+        "package_name": "module-sklearn.preprocessing",
         "params": [
             "degree",
             "interaction_only",
             "include_bias",
             "order"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Apply a power transform featurewise to make data more Gaussian-like.",
         "full_name": "sklearn.preprocessing.PowerTransformer",
+        "href": "generated/sklearn.preprocessing.PowerTransformer.html#sklearn.preprocessing.PowerTransformer",
         "name": "PowerTransformer",
+        "package_name": "module-sklearn.preprocessing",
         "params": [
             "method",
             "standardize",
             "copy"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Transform features using quantiles information.",
         "full_name": "sklearn.preprocessing.QuantileTransformer",
+        "href": "generated/sklearn.preprocessing.QuantileTransformer.html#sklearn.preprocessing.QuantileTransformer",
         "name": "QuantileTransformer",
+        "package_name": "module-sklearn.preprocessing",
         "params": [
             "n_quantiles",
             "output_distribution",
@@ -3081,22 +4036,30 @@
             "subsample",
             "random_state",
             "copy"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Scale features using statistics that are robust to outliers.",
         "full_name": "sklearn.preprocessing.RobustScaler",
+        "href": "generated/sklearn.preprocessing.RobustScaler.html#sklearn.preprocessing.RobustScaler",
         "name": "RobustScaler",
+        "package_name": "module-sklearn.preprocessing",
         "params": [
             "with_centering",
             "with_scaling",
             "quantile_range",
             "copy",
             "unit_variance"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Generate univariate B-spline bases for features.",
         "full_name": "sklearn.preprocessing.SplineTransformer",
+        "href": "generated/sklearn.preprocessing.SplineTransformer.html#sklearn.preprocessing.SplineTransformer",
         "name": "SplineTransformer",
+        "package_name": "module-sklearn.preprocessing",
         "params": [
             "n_knots",
             "degree",
@@ -3104,40 +4067,56 @@
             "extrapolation",
             "include_bias",
             "order"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Standardize features by removing the mean and scaling to unit variance.",
         "full_name": "sklearn.preprocessing.StandardScaler",
+        "href": "generated/sklearn.preprocessing.StandardScaler.html#sklearn.preprocessing.StandardScaler",
         "name": "StandardScaler",
+        "package_name": "module-sklearn.preprocessing",
         "params": [
             "copy",
             "with_mean",
             "with_std"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Reduce dimensionality through Gaussian random projection.",
         "full_name": "sklearn.random_projection.GaussianRandomProjection",
+        "href": "generated/sklearn.random_projection.GaussianRandomProjection.html#sklearn.random_projection.GaussianRandomProjection",
         "name": "GaussianRandomProjection",
+        "package_name": "module-sklearn.random_projection",
         "params": [
             "n_components",
             "eps",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Reduce dimensionality through sparse random projection.",
         "full_name": "sklearn.random_projection.SparseRandomProjection",
+        "href": "generated/sklearn.random_projection.SparseRandomProjection.html#sklearn.random_projection.SparseRandomProjection",
         "name": "SparseRandomProjection",
+        "package_name": "module-sklearn.random_projection",
         "params": [
             "n_components",
             "density",
             "eps",
             "dense_output",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Label Propagation classifier.",
         "full_name": "sklearn.semi_supervised.LabelPropagation",
+        "href": "generated/sklearn.semi_supervised.LabelPropagation.html#sklearn.semi_supervised.LabelPropagation",
         "name": "LabelPropagation",
+        "package_name": "module-sklearn.semi_supervised",
         "params": [
             "kernel",
             "gamma",
@@ -3145,11 +4124,15 @@
             "max_iter",
             "tol",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "LabelSpreading model for semi-supervised learning.",
         "full_name": "sklearn.semi_supervised.LabelSpreading",
+        "href": "generated/sklearn.semi_supervised.LabelSpreading.html#sklearn.semi_supervised.LabelSpreading",
         "name": "LabelSpreading",
+        "package_name": "module-sklearn.semi_supervised",
         "params": [
             "kernel",
             "gamma",
@@ -3158,11 +4141,15 @@
             "max_iter",
             "tol",
             "n_jobs"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Self-training classifier.",
         "full_name": "sklearn.semi_supervised.SelfTrainingClassifier",
+        "href": "generated/sklearn.semi_supervised.SelfTrainingClassifier.html#sklearn.semi_supervised.SelfTrainingClassifier",
         "name": "SelfTrainingClassifier",
+        "package_name": "module-sklearn.semi_supervised",
         "params": [
             "base_estimator",
             "threshold",
@@ -3170,11 +4157,15 @@
             "k_best",
             "max_iter",
             "verbose"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Linear Support Vector Classification.",
         "full_name": "sklearn.svm.LinearSVC",
+        "href": "generated/sklearn.svm.LinearSVC.html#sklearn.svm.LinearSVC",
         "name": "LinearSVC",
+        "package_name": "module-sklearn.svm",
         "params": [
             "penalty",
             "loss",
@@ -3188,11 +4179,15 @@
             "verbose",
             "random_state",
             "max_iter"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Linear Support Vector Regression.",
         "full_name": "sklearn.svm.LinearSVR",
+        "href": "generated/sklearn.svm.LinearSVR.html#sklearn.svm.LinearSVR",
         "name": "LinearSVR",
+        "package_name": "module-sklearn.svm",
         "params": [
             "epsilon",
             "tol",
@@ -3204,11 +4199,15 @@
             "verbose",
             "random_state",
             "max_iter"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Nu-Support Vector Classification.",
         "full_name": "sklearn.svm.NuSVC",
+        "href": "generated/sklearn.svm.NuSVC.html#sklearn.svm.NuSVC",
         "name": "NuSVC",
+        "package_name": "module-sklearn.svm",
         "params": [
             "nu",
             "kernel",
@@ -3225,11 +4224,15 @@
             "decision_function_shape",
             "break_ties",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Nu Support Vector Regression.",
         "full_name": "sklearn.svm.NuSVR",
+        "href": "generated/sklearn.svm.NuSVR.html#sklearn.svm.NuSVR",
         "name": "NuSVR",
+        "package_name": "module-sklearn.svm",
         "params": [
             "nu",
             "C",
@@ -3242,11 +4245,15 @@
             "cache_size",
             "verbose",
             "max_iter"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Unsupervised Outlier Detection.",
         "full_name": "sklearn.svm.OneClassSVM",
+        "href": "generated/sklearn.svm.OneClassSVM.html#sklearn.svm.OneClassSVM",
         "name": "OneClassSVM",
+        "package_name": "module-sklearn.svm",
         "params": [
             "kernel",
             "degree",
@@ -3258,11 +4265,15 @@
             "cache_size",
             "verbose",
             "max_iter"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "C-Support Vector Classification.",
         "full_name": "sklearn.svm.SVC",
+        "href": "generated/sklearn.svm.SVC.html#sklearn.svm.SVC",
         "name": "SVC",
+        "package_name": "module-sklearn.svm",
         "params": [
             "C",
             "kernel",
@@ -3279,11 +4290,15 @@
             "decision_function_shape",
             "break_ties",
             "random_state"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Epsilon-Support Vector Regression.",
         "full_name": "sklearn.svm.SVR",
+        "href": "generated/sklearn.svm.SVR.html#sklearn.svm.SVR",
         "name": "SVR",
+        "package_name": "module-sklearn.svm",
         "params": [
             "kernel",
             "degree",
@@ -3296,11 +4311,15 @@
             "cache_size",
             "verbose",
             "max_iter"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "A decision tree classifier.",
         "full_name": "sklearn.tree.DecisionTreeClassifier",
+        "href": "generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier",
         "name": "DecisionTreeClassifier",
+        "package_name": "module-sklearn.tree",
         "params": [
             "criterion",
             "splitter",
@@ -3314,11 +4333,15 @@
             "min_impurity_decrease",
             "class_weight",
             "ccp_alpha"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "A decision tree regressor.",
         "full_name": "sklearn.tree.DecisionTreeRegressor",
+        "href": "generated/sklearn.tree.DecisionTreeRegressor.html#sklearn.tree.DecisionTreeRegressor",
         "name": "DecisionTreeRegressor",
+        "package_name": "module-sklearn.tree",
         "params": [
             "criterion",
             "splitter",
@@ -3331,11 +4354,15 @@
             "max_leaf_nodes",
             "min_impurity_decrease",
             "ccp_alpha"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "An extremely randomized tree classifier.",
         "full_name": "sklearn.tree.ExtraTreeClassifier",
+        "href": "generated/sklearn.tree.ExtraTreeClassifier.html#sklearn.tree.ExtraTreeClassifier",
         "name": "ExtraTreeClassifier",
+        "package_name": "module-sklearn.tree",
         "params": [
             "criterion",
             "splitter",
@@ -3349,11 +4376,15 @@
             "min_impurity_decrease",
             "class_weight",
             "ccp_alpha"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "An extremely randomized tree regressor.",
         "full_name": "sklearn.tree.ExtraTreeRegressor",
+        "href": "generated/sklearn.tree.ExtraTreeRegressor.html#sklearn.tree.ExtraTreeRegressor",
         "name": "ExtraTreeRegressor",
+        "package_name": "module-sklearn.tree",
         "params": [
             "criterion",
             "splitter",
@@ -3366,11 +4397,16 @@
             "min_impurity_decrease",
             "max_leaf_nodes",
             "ccp_alpha"
-        ]
+        ],
+        "type": "CLASS"
     },
     {
+        "description": "Container object exposing keys as attributes.",
         "full_name": "sklearn.utils.Bunch",
+        "href": "generated/sklearn.utils.Bunch.html#sklearn.utils.Bunch",
         "name": "Bunch",
-        "params": []
+        "package_name": "module-sklearn.utils",
+        "params": [],
+        "type": "CLASS"
     }
 ]

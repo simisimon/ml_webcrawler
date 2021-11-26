@@ -42,6 +42,7 @@ sections = api_ref.findAll("section")
 names = [module["id"] for module in sections if module["id"].startswith(("module", "sklearn")) and not module["id"].endswith(("image", "text"))]
 
 data = []
+data_small = []
 
 for name in names:
     base = soup.find("section", id=name)
@@ -67,13 +68,22 @@ for name in names:
                       "type": module_type,
                       "params": params
                       }
-            data.append(module)
+
+            module_small = {
+                "full_name": element["title"], 
+                "name": element["title"].split(".")[-1],
+                "params": params 
+            }
+
+            if module_type == "CLASS":
+                #data.append(module)
+                data_small.append(module_small)
 
 print("number of modules: ", len(names))
 print("number of classes/function", len(data))
 
 
 with open("modules.json", "w") as f:
-     json.dump(data, f, sort_keys=True, indent=4)
+     json.dump(data_small, f, sort_keys=True, indent=4)
 
 
