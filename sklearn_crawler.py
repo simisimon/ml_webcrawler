@@ -83,7 +83,7 @@ print("number of modules: ", len(names))
 print("number of classes/function", len(data))
 
 
-with open("modules.json", "w") as f:
+with open("modules_with_default.json", "w") as f:
      json.dump(data_small, f, sort_keys=True, indent=4)
 
 

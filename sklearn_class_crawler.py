@@ -1,6 +1,9 @@
 import os
 import bs4
 import requests
+import re
+
+default_regex = re.compile("(?P<name>default=[a-zA-Z0-9$_.”’]+)") 
 
 def get_page_contents(url):
     page = requests.get(url, headers={"Accept-Language": "en-US"})
@@ -13,7 +16,6 @@ def extract_params(href, module_type):
         return []
     
     url = os.path.join("https://scikit-learn.org/stable/modules/", href)
-    print(url)
 
     soup = get_page_contents(url)
     try:
@@ -32,10 +34,20 @@ def extract_params(href, module_type):
 
         for param_entity in param_entities:
             param = param_entity.find("strong")
+            classifier = param_entity.find("span", class_="classifier")
+            match = default_regex.search(classifier.text) if classifier else None
             if param:
-                params.append(param.text)
+                if match:
+                    default = match.group("name")
+                    default = default.replace("\u201d", "'")
+                    default = default.replace("\u2019", "'")
+                    params.append((param.text, default))
+                    continue
+                else:
+                    params.append((param.text, "None"))
 
         return params
     except Exception as e:
         print(e)
         return []
+
