@@ -2,7 +2,8 @@ import subprocess
 import os
 import glob
 import subprocess
-from git import Rep
+import sys
+from git import Repo
 
 # The folder where we store our results.
 EVALUATION_FOLDER = "out"
@@ -274,7 +275,7 @@ def remove_repo_folder(repo_name):
     """Remove the cloned repository."""
     if os.path.exists(repo_name):
         subprocess.run(["rm", "-rf", repo_name])
-        
+
 
 def main():
     """Run the analysis."""
