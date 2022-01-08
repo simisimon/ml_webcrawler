@@ -1,7 +1,6 @@
 import subprocess
 import os
 import glob
-import pandas as pd
 import subprocess
 
 # The folder where we store our results.
