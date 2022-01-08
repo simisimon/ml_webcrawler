@@ -2,6 +2,7 @@ import subprocess
 import os
 import glob
 import subprocess
+from git import Rep
 
 # The folder where we store our results.
 EVALUATION_FOLDER = "out"
@@ -234,7 +235,7 @@ def get_repo_name_from_url(url):
     return repo_name
 
 
-def process_repo(root):
+def process_repo(url):
     """
     Analyze a repository with CfgNet.
     :param url: URL to the repository
@@ -246,21 +247,34 @@ def process_repo(root):
     results_folder = EVALUATION_FOLDER + "/results/" + repo_name
     abs_repo_path = os.path.abspath(repo_folder)
 
-    print("=" * 80)
+    # Cloning repository
+    Repo.clone_from(url, repo_folder)
 
     # Init repository
     subprocess.run(
-        f"cfgnet init {root}", shell=True, executable="/bin/bash"
+        f"cfgnet init {abs_repo_path}", shell=True, executable="/bin/bash"
     )
 
     # Visualize repository
     subprocess.run(
-        f"cfgnet export --output=graph --format=png --include-unlinked --visualize-dot {repo_name}", shell=True,
+        f"cfgnet export --output={root} --format=png --include-unlinked --visualize-dot {abs_repo_path}", shell=True,
         executable="/bin/bash"
     )
 
     print("=" * 80)
 
+    # Copy results into result folder
+    subprocess.run(["cp", "-r", repo_folder + "/.cfgnet", results_folder])
+
+    # Remove repo folder
+    remove_repo_folder(repo_folder)
+
+
+def remove_repo_folder(repo_name):
+    """Remove the cloned repository."""
+    if os.path.exists(repo_name):
+        subprocess.run(["rm", "-rf", repo_name])
+        
 
 def main():
     """Run the analysis."""
