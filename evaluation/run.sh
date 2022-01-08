@@ -11,6 +11,10 @@ build_wheel() {
     rm -rf cfgnet
 }
 
+rm -rf error output out
+mkdir error
+mkdir output
+
 if ! command -v poetry &> /dev/null
 then
     echo "Poetry could not be found"
@@ -29,5 +33,9 @@ then
     build_wheel "$PWD" "$branch"
 fi
 
-bash ./task.sh $(pwd)
+if [ "$HOSTNAME" = "tesla" ]; then
+    sbatch array.sbatch
+else
+    bash ./task.sh $(pwd)
+fi
 
