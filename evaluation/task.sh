@@ -28,12 +28,10 @@ source $LOCALPATH/venv/bin/activate
 wheel="$(find $2 -type f -iname "*.whl")"
 
 pip install $wheel
-pip install pandas
 pip install gitpython joblib
 
 # Get evaluation script
 cp $2/evaluation.py $LOCALPATH
-cp $2/scikit_learn_repos.csv $LOCALPATH
 
 # ----------------------------------------------------------------------------
 # Run experiment
