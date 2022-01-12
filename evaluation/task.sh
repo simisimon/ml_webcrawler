@@ -1,19 +1,17 @@
-PROJECTNAME=scikit_learn
-
-LOCALPATH=/tmp/$USER/$PROJECTNAME/$1
-
 # ----------------------------------------------------------------------------
 # Prepare file system
 # ----------------------------------------------------------------------------
 # We create the folder structure the node where the job runs to save some
 # network bandwidth.
+EVALUATION=out
+
+LOCALPATH=/tmp/$USER/sklearn/$1
 
 # Clean up leftovers from previous failed runs
-rm -rf $LOCALPATH/
+# rm -rf $LOCALPATH/
 
 # Create results folder
-mkdir -p $LOCALPATH
-
+# mkdir -p $LOCALPATH
 
 # ----------------------------------------------------------------------------
 # Prepare environment
@@ -30,9 +28,12 @@ wheel="$(find $2 -type f -iname "*.whl")"
 pip install $wheel
 pip install gitpython joblib
 
-# Get evaluation script
-cp $2/evaluation.py $LOCALPATH
+cd "$LOCALPATH"
 
+rm -rf "$EVALUATION"
+
+# Get evaluation script
+cp $2/evaluation.py .
 # ----------------------------------------------------------------------------
 # Run experiment
 # ----------------------------------------------------------------------------
@@ -43,8 +44,7 @@ python3 evaluation.py $1
 # Copy results
 # ----------------------------------------------------------------------------
 
-
-cp -r $LOCALPATH/out/* $2/results/
+cp -r $LOCALPATH/out/* $2/
 
 # ----------------------------------------------------------------------------
 # Clean up
